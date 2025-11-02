@@ -17,3 +17,8 @@ Dataset Features
 Local source domain and home state
 Scraping date
 Matched keywords and keyword tier
+
+How to Run
+Download the keyword files from this repository.
+Run the samplingcc.py script to extract articles from the Common Crawl snapshots:
+python samplingcc.py --keywords keywords_tier1.csv keywords_tier2.csv --output output_folder
