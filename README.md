@@ -1,24 +1,30 @@
 # data-curation-evaluation-scripts
-Local News Crime Article Dataset (U.S.)
+This repository contains tools and documentation for the development and evaluation of the Local News Crime Article Dataset (LNCAD) — a curated dataset of 33,506 local U.S. news articles covering crime and justice topics. The dataset includes content from 551 local news sources across all 50 U.S. states, spanning a broad range of ideological perspectives (left-leaning, right-leaning, and centrist) ([CITE; add GitHub link]).
 
-This dataset contains 33,506 local news articles from 551 U.S. sources covering crime and justice topics. Sources represent all 50 states and a range of ideological perspectives (left, right, centrist) ([CITE; add GitHub link]).
 
-Data Collection
-Articles were retrieved from Common Crawl snapshots (2018–2020, 2023–2024).
-BeautifulSoup was used to extract article text.
-Only pages with clear publication dates were included (2000–2024).
-
-Keyword Selection
-Tier 1 (specific): sexual abuse, child abuse, perpetrator, offender
-Tier 2 (broader): defendant, misconduct, witness
-Articles were selected if they contained Tier 1 term, or two Tier 2 matches.
-
-Dataset Features
-Local source domain and home state
+Dataset Features:
+Each record in the dataset includes:
+Local source domain
+Home state of the outlet
 Scraping date
 Matched keywords and keyword tier
+Extracted article text
+Publication year
 
-How to Run
-Download the keyword files from this repository.
-Run the samplingcc.py script to extract articles from the Common Crawl snapshots:
-python samplingcc.py --keywords keywords_tier1.csv keywords_tier2.csv --output output_folder
+
+Data Composition
+Geographic coverage: All U.S. states
+Sources per state (avg): ~700 per year
+Ideological balance: Left, Right, and Centrist outlets represented
+Regional coverage: Even distribution across Northeast, Midwest, South, and West
+Figures 1–3 in the manuscript visualize source count by state, regional representation, and ideological distribution.
+
+How to Run:
+git clone https://github.com/yourusername/data-curation-evaluation-scripts.git
+cd data-curation-evaluation-scripts
+Run the pipeline:
+python samplingcc.py \
+  --keywords keywords_tier1.csv keywords_tier2.csv \
+  --output output_folder
+
+This command extracts articles from the specified Common Crawl snapshots that match your keyword sets.
