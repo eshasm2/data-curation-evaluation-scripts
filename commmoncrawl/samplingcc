@@ -83,7 +83,7 @@ def query_commoncrawl(domain, year, base_delay=4, retries=3):
                     all_records.extend(records)
                     break
             except requests.RequestException as e:
-                print(f"⚠️ Failed to query {domain} ({year}, {collection}), attempt {attempt}/{retries}: {e}")
+                print(f" Failed to query {domain} ({year}, {collection}), attempt {attempt}/{retries}: {e}")
                 backoff = 3 ** attempt
                 time.sleep(backoff)
     return all_records
