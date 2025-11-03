@@ -21,7 +21,9 @@ Figures 1–3 in the manuscript visualize source count by state, regional repres
 
 How to Run:
 git clone https://github.com/yourusername/data-curation-evaluation-scripts.git
+
 cd data-curation-evaluation-scripts
+
 Run the pipeline:
 python samplingcc.py \
   --keywords keywords_tier1.csv keywords_tier2.csv \
