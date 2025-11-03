@@ -3,28 +3,41 @@ This repository contains tools and documentation for the development and evaluat
 
 
 Dataset Features:
-Each record in the dataset includes:
-Local source domain
-Home state of the outlet
-Scraping date
-Matched keywords and keyword tier
-Extracted article text
-Publication year
+
+- Local source domain
+
+- Home state of the outlet
+
+- Scraping date
+
+- Matched keywords and keyword tier
+
+- Extracted article text
+
+- Publication year
 
 
-Data Composition
-Geographic coverage: All U.S. states
-Sources per state (avg): ~700 per year
-Ideological balance: Left, Right, and Centrist outlets represented
-Regional coverage: Even distribution across Northeast, Midwest, South, and West
-Figures 1–3 in the manuscript visualize source count by state, regional representation, and ideological distribution.
+
+Data Composition:
+
+- Geographic coverage: All U.S. states
+
+- Sources per state (avg): ~700 per year
+
+- Ideological balance: Left, Right, and Centrist outlets represented
+
+- Regional coverage: Even distribution across Northeast, Midwest, South, and West
+
+- Figures 1–3 in the manuscript visualize source count by state, regional representation, and ideological distribution.
 
 How to Run:
+
 git clone https://github.com/yourusername/data-curation-evaluation-scripts.git
 
 cd data-curation-evaluation-scripts
 
 Run the pipeline:
+
 python samplingcc.py \
   --keywords keywords_tier1.csv keywords_tier2.csv \
   --output output_folder
