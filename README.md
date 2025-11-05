@@ -1,4 +1,14 @@
 # data-curation-evaluation-scripts (LUCIC???)
+data-curation-evaluation-scripts/   # root folder / repo
+├── ccscript.py                     # main pipeline script
+├── commoncrawl/                     # folder for keyword CSVs and related data
+│   └── keywords/
+│       ├── keywords_tier1.csv
+│       └── keywords_tier2.csv
+├── output/                          # folder where results will be saved (starts empty)
+├── requirements.txt                 # Python dependencies
+└── README.md                        # instructions for setup and usage
+
 This repository contains tools for the development and evaluation of the Local U.S. Crime and Ideology Corpus (LUCIC), a large-scale dataset of local news articles about crime and justice systems across the United States. LUCIC was created using a curated list of local news websites from all 50 states representing different ideological perspectives, including left-leaning, right-leaning, and centrist outlets ([CITE]; [GitHub link]).
 
 Articles were identified within selected Common Crawl collections (CC-MAIN-2018-43, CC-MAIN-2019-09, CC-MAIN-2020-10, CC-MAIN-2023-06, and CC-MAIN-2024-14) using a purpose-built Python pipeline. Text was extracted with BeautifulSoup, and articles without reliable publication dates were excluded.
