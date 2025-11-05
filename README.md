@@ -6,7 +6,9 @@ Articles were identified within selected Common Crawl collections (CC-MAIN-2018-
 Content was filtered through a hierarchical keyword framework to capture discussions of crime and justice, with two tiers of specificity (e.g., sexual abuse, offender, defendant, witness). The final dataset includes 33,506 articles from 551 local U.S. news sources, spanning all 50 states and representing diverse ideological and geographic coverage. Scripts for data collection and evaluation are provided in this repository.
 
 **total corpus size:** 33,506 articles
-
+![Alt text](final-data/graphs/per-region-graph.png)
+![Alt text](final-data/graphs/per-state-graph.png)
+![Alt text](final-data/graphs/overall-ideology-graph.png)
 
 ## The Current Repository
 
