@@ -29,23 +29,23 @@ The scripts are designed to be flexible and can be adapted for building other la
 
 Install Git on your computer. When finished, open a command line terminal, navigate to where you would like to place the repository, then enter git clone [https://github.com/eshasm2/data-curation-evaluation-scripts.git]. 
 
-Download this folder into the newly created LUCIC folder.
-
-// need to add for my code
-
-**Virtual Environment Setup**
-// need to change for my code
-
 **Commands**
 
 `git clone https://github.com/yourusername/data-curation-evaluation-scripts.git`
 
 `cd data-curation-evaluation-scripts`
 
+**Virtual Environment Setup**
+* Install Anaconda by following the instructions [(https://www.anaconda.com/download)].
+* Create a new conda environment with Python 3.12 and pip:
+`conda create --name LUCIC python=3.12 pip`
+* Answer y when prompted and activate the environment:
+`conda activate LUCIC`
+* Install all required Python packages:
+`pip install -r requirements.txt`
+
 Run the pipeline:
+`python samplingcc.py --keywords keywords_tier1.txt keywords_tier2.txt --output output_folder`
 
-python samplingcc.py \
-  --keywords keywords_tier1.csv keywords_tier2.csv \
-  --output output_folder
-
-This command extracts articles from the specified Common Crawl snapshots that match your keyword sets.
+## Adaptations
+// add later
