@@ -6,31 +6,37 @@ Articles were identified within selected Common Crawl collections (CC-MAIN-2018-
 Content was filtered through a hierarchical keyword framework to capture discussions of crime and justice, with two tiers of specificity (e.g., sexual abuse, offender, defendant, witness). The final dataset includes 33,506 articles from 551 local U.S. news sources, spanning all 50 states and representing diverse ideological and geographic coverage. Scripts for data collection and evaluation are provided in this repository.
 
 **total corpus size:** 33,506 articles
+
 ![Alt text](final-data/graphs/per-region-graph.png)
 ![Alt text](final-data/graphs/per-state-graph.png)
 ![Alt text](final-data/graphs/overall-ideology-graph.png)
 
 ## The Current Repository
 
+This repository contains the scripts used to build LUCIC from scratch by:
+
+* Collecting and filtering articles from local U.S. news websites using predefined source lists and Common Crawl snapshots.
+* Extracting article text and metadata while excluding pages without reliable publication dates.
+* Identifying relevant content about crime and justice through a hierarchical keyword framework, and filtering articles based on keyword specificity.
+* Generating metadata for each article, including matched keywords, keyword tier, source domain, publication date, and estimated ideological leaning.
+
+The scripts are designed to be flexible and can be adapted for building other large-scale news corpora.
+
 ## How To Use
 **Repository Setup**
 
-Install Git on your computer. When finished, open a command line terminal, navigate to where you would like to place the repository, then enter git clone https://github.com/BabakHemmatian/Illinois_Social_Attitudes.git. Note that the raw and processed data files for the full 2007-2023 take several terabytes of space. Choose the repository location according to your use case's storage needs.
+Install Git on your computer. When finished, open a command line terminal, navigate to where you would like to place the repository, then enter git clone [https://github.com/eshasm2/data-curation-evaluation-scripts.git]. 
 
-Download this folder into the newly created Illinois_Social_Attitudes folder.
+Download this folder into the newly created LUCIC folder.
 
-The raw Reddit data that the filter_keywords resource requires can be found and downloaded here. The functions currently assume Reddit Comments as the type of data, with the relevant .zst files for a given timeframe to be placed in data/data_reddit_raw/reddit_comments/.
+// need to add for my code
 
 **Virtual Environment Setup**
-
-Follow the steps here to install the desired version of Anaconda.
-
-Once finished, navigate to Illinois_Social_attitudes on the command line and enter conda create --name ISAAC python=3.12 pip. Answer 'y' to the question. When finished, run conda activate ISAAC. Once the environment is activated, run the following command to install the necessary packages: pip install -r req.txt.
-
+// need to change for my code
 
 **Commands**
 
-git clone https://github.com/yourusername/data-curation-evaluation-scripts.git
+` git clone https://github.com/yourusername/data-curation-evaluation-scripts.git`
 
 cd data-curation-evaluation-scripts
 
