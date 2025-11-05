@@ -36,9 +36,9 @@ Download this folder into the newly created LUCIC folder.
 
 **Commands**
 
-` git clone https://github.com/yourusername/data-curation-evaluation-scripts.git`
+`git clone https://github.com/yourusername/data-curation-evaluation-scripts.git`
 
-cd data-curation-evaluation-scripts
+`cd data-curation-evaluation-scripts`
 
 Run the pipeline:
 
