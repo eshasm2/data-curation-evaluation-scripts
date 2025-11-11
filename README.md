@@ -1,5 +1,4 @@
-# data-curation-evaluation-scripts (LUCIC???)
-
+# local-u.s-crime-ideology-dataset (LUCID)
 
 This repository contains tools for the development and evaluation of the Local U.S. Crime and Ideology Corpus (LUCIC), a large-scale dataset of local news articles about crime and justice systems across the United States. LUCIC was created using a curated list of local news websites from all 50 states representing different ideological perspectives, including left-leaning, right-leaning, and centrist outlets ([CITE]; [GitHub link]).
 
