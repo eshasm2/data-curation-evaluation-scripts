@@ -177,3 +177,71 @@ def read_last_years(path):
             except Exception:
                 continue
     return last
+if __name__ == "__main__":
+    # === Setup paths ===
+    sources_path = "/content/drive/MyDrive/sources.csv"     # CSV with 'name','state','city','URL'
+    keywords_path = "/content/drive/MyDrive/keywords.txt"   # file with one keyword per line
+    results_csv = os.path.join(drive_dir, "keyword_matches.csv")
+    results_txt = os.path.join(drive_dir, "matched_articles.txt")
+
+    # === Load data ===
+    print("Loading keywords and sources...")
+    keywords = load_keywords(keywords_path)
+    automaton = build_automaton(keywords)
+    sources = load_sources(sources_path)
+    last_years = read_last_years(results_txt)
+
+    print(f"Loaded {len(keywords)} keywords and {len(sources)} sources")
+
+    # === Process sources ===
+    with open(results_csv, "a", newline="", encoding="utf-8") as csvfile, \
+         open(results_txt, "a", encoding="utf-8") as txtfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["source", "url", "year", "matched_keywords"])
+
+        for _, row in tqdm(sources.iterrows(), total=len(sources)):
+            domain = urlparse(row["URL"]).netloc or row["URL"]
+            source_name = row["name"]
+            print(f"\nProcessing {source_name} ({domain})...")
+
+            for year in years:
+                if domain in last_years and year <= last_years[domain]:
+                    print(f"Skipping {domain}, already processed {year}")
+                    continue
+
+                print(f" Querying Common Crawl for {domain}, {year}")
+                all_variants = domain_variants(domain)
+
+                matched_count = 0
+                for var in all_variants:
+                    records = query_cc(var, year)
+                    for rec in records:
+                        url = rec.get("url")
+                        if not url:
+                            continue
+
+                        # match keywords in URL
+                        matches = url_matches(url, automaton)
+                        if not matches:
+                            continue
+
+                        text = extract_warc(rec)
+                        if not text:
+                            continue
+
+                        # save results
+                        writer.writerow([source_name, url, year, ";".join(matches)])
+                        csvfile.flush()
+
+                        txtfile.write("---\n")
+                        txtfile.write(f"url: {url}\n")
+                        txtfile.write(f"year: {year}\n")
+                        txtfile.write(f"text:\n{text}\n\n")
+                        txtfile.flush()
+
+                        matched_count += 1
+                        if matched_count >= max_per_source:
+                            break
+
+                    if matched_count >= max_per_source:
+                        break
