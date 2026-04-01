@@ -1,0 +1,68 @@
+import pandas as pd
+import plotly.express as px
+
+# === Load files ===
+master = pd.read_csv("joint_news_sources(in) (1).csv")  # old master with ideology
+new_data = pd.read_csv("combined_outputs.csv")  # new dataset with gpt/llama/qwen sources
+
+# === Create a unified source-state DataFrame from the new file ===
+sources_list = []
+
+for model_prefix in ["gpt", "llama", "qwen"]:
+    temp = new_data[[f"{model_prefix}_state", f"{model_prefix}_source"]].copy()
+    temp = temp.rename(columns={f"{model_prefix}_state": "state",
+                                f"{model_prefix}_source": "source_name"})
+    temp = temp.dropna(subset=["state","source_name"])
+    sources_list.append(temp)
+
+sources_df = pd.concat(sources_list, ignore_index=True).drop_duplicates()
+
+# === Merge ideology from master file ===
+sources_merged = sources_df.merge(
+    master[['name','state','ideology']],
+    left_on=['source_name','state'],
+    right_on=['name','state'],
+    how='left'
+)
+
+# === Aggregate at state level ===
+state_summary = sources_merged.groupby("state").agg(
+    count_sources=("source_name", "count"),
+    avg_ideology=("ideology", "mean")
+).reset_index()
+
+# === 2020 Census population (in 1000s) ===
+pop_data = {
+    'AL': 5024, 'AK': 733, 'AZ': 7152, 'AR': 3011, 'CA': 39538, 'CO': 5774,
+    'CT': 3606, 'DE': 989, 'FL': 21538, 'GA': 10736, 'HI': 1460, 'ID': 1839,
+    'IL': 12672, 'IN': 6786, 'IA': 3190, 'KS': 2938, 'KY': 4506, 'LA': 4658,
+    'ME': 1373, 'MD': 6177, 'MA': 7029, 'MI': 10077, 'MN': 5706, 'MS': 2961,
+    'MO': 6155, 'MT': 1084, 'NE': 1961, 'NV': 3105, 'NH': 1389, 'NJ': 9289,
+    'NM': 2118, 'NY': 20201, 'NC': 10488, 'ND': 779, 'OH': 11799, 'OK': 3981,
+    'OR': 4237, 'PA': 13002, 'RI': 1097, 'SC': 5202, 'SD': 887, 'TN': 6911,
+    'TX': 29145, 'UT': 3272, 'VT': 643, 'VA': 8631, 'WA': 7705, 'WV': 1794,
+    'WI': 5894, 'WY': 576
+}
+pop_df = pd.DataFrame(list(pop_data.items()), columns=["state","population_1000s"])
+
+# === Merge population and compute sources per million ===
+state_summary = state_summary.merge(pop_df, on="state", how="left")
+state_summary["sources_per_million"] = state_summary["count_sources"] / (state_summary["population_1000s"] / 1000)
+
+# === Show lowest coverage states ===
+low_coverage = state_summary.sort_values("sources_per_million")
+print("\nStates with lowest coverage (sources per million residents):")
+print(low_coverage[["state","count_sources","population_1000s","sources_per_million"]].head(10))
+
+# === US map visualization ===
+fig = px.choropleth(
+    state_summary,
+    locations="state",
+    locationmode="USA-states",
+    scope="usa",
+    color="avg_ideology",
+    hover_data=["count_sources","population_1000s","sources_per_million"],
+    color_continuous_scale="RdBu",
+    title="US News Sources by State: Count, Ideology, and Coverage"
+)
+fig.show()
