@@ -1,0 +1,106 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# ==============================
+# 1️⃣ LOAD FILES
+# ==============================
+
+master = pd.read_csv("joint_news_sources(in) (1).csv")
+sources = pd.read_csv("combined_outputs.csv")
+
+# ==============================
+# 2️⃣ EXTRACT DOMAIN FROM URL
+# ==============================
+
+# Clean master file
+master['domain'] = (
+    master['URL']
+    .str.lower()
+    .str.replace(r'^https?://', '', regex=True)
+    .str.replace(r'^www\.', '', regex=True)
+    .str.split('/')
+    .str[0]
+)
+
+# Clean sources file (NEW structure uses 'url')
+sources['domain'] = (
+    sources['url']
+    .str.lower()
+    .str.replace(r'^https?://', '', regex=True)
+    .str.replace(r'^www\.', '', regex=True)
+    .str.split('/')
+    .str[0]
+)
+
+# ==============================
+# 3️⃣ MERGE IDEOLOGY
+# ==============================
+
+merged = sources.merge(
+    master[['domain', 'ideology']],
+    on='domain',
+    how='left'
+)
+
+# Drop rows without ideology score
+merged = merged.dropna(subset=['ideology'])
+
+# ==============================
+# 4️⃣ BIN IDEOLOGY SCORES
+# ==============================
+
+bins = [-1, -0.1, 0.1, 1]
+labels = [
+    'Left-leaning (< -0.1)',
+    'Center (-0.1 to 0.1)',
+    'Right-leaning (> 0.1)'
+]
+
+merged['category'] = pd.cut(
+    merged['ideology'],
+    bins=bins,
+    labels=labels
+)
+
+# ==============================
+# 5️⃣ HISTOGRAM (US-WIDE)
+# ==============================
+
+plt.figure(figsize=(10,6))
+
+plt.hist(
+    merged['ideology'],
+    bins=np.linspace(-1,1,20),
+    edgecolor='black'
+)
+
+plt.axvline(0, linestyle='--')
+plt.title("Distribution of Ideology Scores Across US Newspaper Sources")
+plt.xlabel("Political Leaning Score")
+plt.ylabel("Number of Articles")
+plt.tight_layout()
+plt.show()
+
+# ==============================
+# 6️⃣ SUMMARY STATISTICS
+# ==============================
+
+counts = (
+    merged['category']
+    .value_counts()
+    .reindex(labels)
+    .fillna(0)
+    .astype(int)
+)
+
+mean_score = merged['ideology'].mean()
+median_score = merged['ideology'].median()
+
+print("\nCounts by Category:")
+print(counts)
+
+print("\nMean Ideology Score:", round(mean_score, 3))
+print("Median Ideology Score:", round(median_score, 3))
+
+print("\nTotal Articles with Ideology:", len(merged))
