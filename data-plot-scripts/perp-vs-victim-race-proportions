@@ -1,0 +1,64 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# -----------------------------
+# 1. Load CSV
+# -----------------------------
+df = pd.read_csv("race_counts_soft_majority_any_crime_by_ideology_role_race.csv")
+
+# -----------------------------
+# 2. Clean race column properly
+# -----------------------------
+# normalize text
+df["race"] = df["race"].astype(str).str.strip().str.lower()
+
+# remove actual NaNs + unwanted strings
+bad_values = ["not provided", "not_provided", "none", ""]
+
+df = df[~df["race"].isin(bad_values)]
+df = df[~df["race"].isna()]   # remove actual NaN values
+
+# sanity check
+print("Remaining race labels:", df["race"].unique())
+
+# -----------------------------
+# 3. Create "all" ideology by summing counts
+# -----------------------------
+all_df = (
+    df.groupby(["role", "race"], as_index=False)
+      .agg({"count": "sum"})
+)
+all_df["ideology"] = "all"
+
+# Combine original + all
+plot_df = pd.concat([df, all_df], ignore_index=True)
+
+# -----------------------------
+# 4. Plotting function
+# -----------------------------
+def plot_clustered_proportion_total(df, ideology_label):
+    subset = df[df["ideology"] == ideology_label].copy()
+    total = subset["count"].sum()
+    subset["proportion"] = subset["count"] / total
+
+    plt.figure(figsize=(10, 6))
+    ax = sns.barplot(
+        data=subset,
+        x="race",
+        y="proportion",
+        hue="role",
+        errorbar=None
+    )
+    plt.title(f"Perp vs Victim Race Proportions ({ideology_label})")
+    plt.xlabel("Race")
+    plt.ylabel("Proportion of Total")
+    plt.tight_layout()
+    plt.show()
+
+# -----------------------------
+# 5. Generate plots
+# -----------------------------
+for ideology in ["negative", "positive", "all"]:
+    plot_clustered_proportion_total(plot_df, ideology)
