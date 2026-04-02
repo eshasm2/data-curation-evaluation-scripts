@@ -3,62 +3,47 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# -----------------------------
-# 1. Load CSV
-# -----------------------------
+
+# load counts file — one row per (role, race, ideology) combination
 df = pd.read_csv("race_counts_soft_majority_any_crime_by_ideology_role_race.csv")
 
-# -----------------------------
-# 2. Clean race column properly
-# -----------------------------
-# normalize text
+
+# normalize race labels and drop missing/invalid entries
 df["race"] = df["race"].astype(str).str.strip().str.lower()
 
-# remove actual NaNs + unwanted strings
 bad_values = ["not provided", "not_provided", "none", ""]
-
 df = df[~df["race"].isin(bad_values)]
-df = df[~df["race"].isna()]   # remove actual NaN values
+df = df[~df["race"].isna()]
 
-# sanity check
 print("Remaining race labels:", df["race"].unique())
 
-# -----------------------------
-# 3. Create "all" ideology by summing counts
-# -----------------------------
+
+# create an "all" ideology group by summing counts across ideologies
+# then append it to the original so we can plot all three panels uniformly
 all_df = (
     df.groupby(["role", "race"], as_index=False)
       .agg({"count": "sum"})
 )
 all_df["ideology"] = "all"
 
-# Combine original + all
 plot_df = pd.concat([df, all_df], ignore_index=True)
 
-# -----------------------------
-# 4. Plotting function
-# -----------------------------
+
 def plot_clustered_proportion_total(df, ideology_label):
+    # plot perp vs victim race as proportions of total mentions for a given ideology.
+    # dividing by total (not per-role) keeps perp and victim bars on the same scale.
     subset = df[df["ideology"] == ideology_label].copy()
-    total = subset["count"].sum()
-    subset["proportion"] = subset["count"] / total
+    subset["proportion"] = subset["count"] / subset["count"].sum()
 
     plt.figure(figsize=(10, 6))
-    ax = sns.barplot(
-        data=subset,
-        x="race",
-        y="proportion",
-        hue="role",
-        errorbar=None
-    )
+    sns.barplot(data=subset, x="race", y="proportion", hue="role", errorbar=None)
     plt.title(f"Perp vs Victim Race Proportions ({ideology_label})")
     plt.xlabel("Race")
     plt.ylabel("Proportion of Total")
     plt.tight_layout()
     plt.show()
 
-# -----------------------------
-# 5. Generate plots
-# -----------------------------
+
+# generate one plot per ideology panel
 for ideology in ["negative", "positive", "all"]:
     plot_clustered_proportion_total(plot_df, ideology)
