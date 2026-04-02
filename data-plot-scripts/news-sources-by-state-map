@@ -1,68 +1,64 @@
 import pandas as pd
-import plotly.express as px
+import matplotlib.pyplot as plt
+import numpy as np
 
-# === Load files ===
-master = pd.read_csv("joint_news_sources(in) (1).csv")  # old master with ideology
-new_data = pd.read_csv("combined_outputs.csv")  # new dataset with gpt/llama/qwen sources
 
-# === Create a unified source-state DataFrame from the new file ===
-sources_list = []
+# load files
+master  = pd.read_csv("joint_news_sources(in) (1).csv")
+sources = pd.read_csv("combined_outputs.csv")
 
-for model_prefix in ["gpt", "llama", "qwen"]:
-    temp = new_data[[f"{model_prefix}_state", f"{model_prefix}_source"]].copy()
-    temp = temp.rename(columns={f"{model_prefix}_state": "state",
-                                f"{model_prefix}_source": "source_name"})
-    temp = temp.dropna(subset=["state","source_name"])
-    sources_list.append(temp)
 
-sources_df = pd.concat(sources_list, ignore_index=True).drop_duplicates()
+# extract bare domain from URL for merging
+# strips protocol (http/https) and www. prefix, then takes everything before the first slash
+def extract_domain(url_series):
+    return (
+        url_series
+        .str.lower()
+        .str.replace(r'^https?://', '', regex=True)
+        .str.replace(r'^www\.', '', regex=True)
+        .str.split('/')
+        .str[0]
+    )
 
-# === Merge ideology from master file ===
-sources_merged = sources_df.merge(
-    master[['name','state','ideology']],
-    left_on=['source_name','state'],
-    right_on=['name','state'],
+master['domain']  = extract_domain(master['URL'])
+sources['domain'] = extract_domain(sources['url'])
+
+
+# merge ideology scores from master into the article-level sources data
+# left join keeps all articles; rows without a matching domain get NaN ideology
+merged = sources.merge(
+    master[['domain', 'ideology']],
+    on='domain',
     how='left'
 )
+merged = merged.dropna(subset=['ideology'])
 
-# === Aggregate at state level ===
-state_summary = sources_merged.groupby("state").agg(
-    count_sources=("source_name", "count"),
-    avg_ideology=("ideology", "mean")
-).reset_index()
 
-# === 2020 Census population (in 1000s) ===
-pop_data = {
-    'AL': 5024, 'AK': 733, 'AZ': 7152, 'AR': 3011, 'CA': 39538, 'CO': 5774,
-    'CT': 3606, 'DE': 989, 'FL': 21538, 'GA': 10736, 'HI': 1460, 'ID': 1839,
-    'IL': 12672, 'IN': 6786, 'IA': 3190, 'KS': 2938, 'KY': 4506, 'LA': 4658,
-    'ME': 1373, 'MD': 6177, 'MA': 7029, 'MI': 10077, 'MN': 5706, 'MS': 2961,
-    'MO': 6155, 'MT': 1084, 'NE': 1961, 'NV': 3105, 'NH': 1389, 'NJ': 9289,
-    'NM': 2118, 'NY': 20201, 'NC': 10488, 'ND': 779, 'OH': 11799, 'OK': 3981,
-    'OR': 4237, 'PA': 13002, 'RI': 1097, 'SC': 5202, 'SD': 887, 'TN': 6911,
-    'TX': 29145, 'UT': 3272, 'VT': 643, 'VA': 8631, 'WA': 7705, 'WV': 1794,
-    'WI': 5894, 'WY': 576
-}
-pop_df = pd.DataFrame(list(pop_data.items()), columns=["state","population_1000s"])
+# bin continuous ideology scores into three directional categories
+bins   = [-1, -0.1, 0.1, 1]
+labels = ['Left-leaning (< -0.1)', 'Center (-0.1 to 0.1)', 'Right-leaning (> 0.1)']
 
-# === Merge population and compute sources per million ===
-state_summary = state_summary.merge(pop_df, on="state", how="left")
-state_summary["sources_per_million"] = state_summary["count_sources"] / (state_summary["population_1000s"] / 1000)
+merged['category'] = pd.cut(merged['ideology'], bins=bins, labels=labels)
 
-# === Show lowest coverage states ===
-low_coverage = state_summary.sort_values("sources_per_million")
-print("\nStates with lowest coverage (sources per million residents):")
-print(low_coverage[["state","count_sources","population_1000s","sources_per_million"]].head(10))
 
-# === US map visualization ===
-fig = px.choropleth(
-    state_summary,
-    locations="state",
-    locationmode="USA-states",
-    scope="usa",
-    color="avg_ideology",
-    hover_data=["count_sources","population_1000s","sources_per_million"],
-    color_continuous_scale="RdBu",
-    title="US News Sources by State: Count, Ideology, and Coverage"
-)
-fig.show()
+# histogram of ideology scores across all sources
+plt.figure(figsize=(10, 6))
+plt.hist(merged['ideology'], bins=np.linspace(-1, 1, 20), edgecolor='black')
+plt.axvline(0, linestyle='--')
+plt.title("Distribution of Ideology Scores Across US Newspaper Sources")
+plt.xlabel("Political Leaning Score")
+plt.ylabel("Number of Articles")
+plt.tight_layout()
+plt.show()
+
+
+# summary statistics
+counts       = merged['category'].value_counts().reindex(labels).fillna(0).astype(int)
+mean_score   = round(merged['ideology'].mean(), 3)
+median_score = round(merged['ideology'].median(), 3)
+
+print("\nCounts by Category:")
+print(counts)
+print(f"\nMean Ideology Score:   {mean_score}")
+print(f"Median Ideology Score: {median_score}")
+print(f"\nTotal Articles with Ideology: {len(merged)}")
