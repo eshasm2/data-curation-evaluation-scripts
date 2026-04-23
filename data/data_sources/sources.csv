@@ -1,0 +1,951 @@
+name,state,city,URL,ideology
+Alaska Dispatch News,AK,Anchorage,adn.com,-0.1124
+Fairbanks Daily News-Miner,AK,Fairbanks,newsminer.com,-0.1174
+Juneau Empire,AK,Juneau,juneauempire.com,-0.1741
+Anniston Star,AL,Anniston,annistonstar.com,0.1353
+The Anniston Star,AL,Anniston,annistonstar.com,0.1353
+Auburn Plainsman,AL,Auburn,theplainsman.com,0.4512
+The Auburn Plainsman,AL,Auburn,theplainsman.com,0.4512
+Montgomery Advertiser,AL,Montgomery,montgomeryadvertiser.com,-0.1615
+Opelika-Auburn News,AL,Opelika,oanow.com,0.2322
+The Opelika-Auburn News,AL,Opelika,oanow.com,0.2322
+The Tuscaloosa News,AL,Tuscaloosa,tuscaloosanews.com,0.3539
+Tuscaloosa News,AL,Tuscaloosa,tuscaloosanews.com,0.3539
+Democrat Gazette,AR,Bentonville,nwaonline.com,-0.0476
+Washington County Enterprise-Leader,AR,Farmington,nwaonline.com,-0.0476
+Northwest Arkansas Democrat Gazette,AR,Fayetteville,nwaonline.com,-0.0476
+Arkansas Business,AR,Little Rock,arkansasbusiness.com,0.1937
+Arkansas Democrat-Gazette,AR,Little Rock,arkansasonline.com,0.0116
+Arkansas Democrat-Gazette / ArkansasOnline.com,AR,Little Rock,arkansasonline.com,0.0116
+Arkansas Times,AR,Little Rock,arktimes.com,-0.6297
+Arizona Daily Star,AZ,Corona de Tucson,tucson.com,-0.0604
+Inside Tucson Business,AZ,Corona de Tucson,insidetucsonbusiness.com,0.2377
+Tucson Weekly,AZ,Corona de Tucson,tucsonweekly.com,-0.268
+Arizona Daily Sun,AZ,Flagstaff,azdailysun.com,-0.2053
+Florence Reminder  Blade-Tribune,AZ,Florence,trivalleycentral.com,0.4829
+Glendale Today,AZ,Glendale,yourwestvalley.com,0.6393
+Todays News Herald,AZ,Lake Havasu City,havasunews.com,0.5122
+Todays News-Herald,AZ,Lake Havasu City,havasunews.com,0.5122
+AZCentral,AZ,Phoenix,azcentral.com,0.1353
+Ahwatukee Foothills News,AZ,Phoenix,ahwatukee.com,0.2917
+Arizona Capitol Times,AZ,Phoenix,azcapitoltimes.com,-0.0592
+New Times,AZ,Phoenix,phoenixnewtimes.com,-0.4061
+Phoenix New Times,AZ,Phoenix,phoenixnewtimes.com,-0.4061
+Daily Courier,AZ,Prescott,dcourier.com,0.3942
+The East Valley Tribune,AZ,Tempe,eastvalleytribune.com,0.3395
+Navajo Times,AZ,Window Rock,navajotimes.com,-0.3231
+Bakersfield Californian,CA,Bakersfield,bakersfield.com,-0.0985
+The Bakersfield Californian,CA,Bakersfield,bakersfield.com,-0.0985
+Ventura County Star,CA,Camarillo,vcstar.com,-0.0749
+Orange County Weekly,CA,Costa Mesa,ocweekly.com,-0.4071
+Palo Alto Online,CA,East Palo Alto,paloaltoonline.com,-0.2732
+Pasadena Star-News,CA,East Pasadena,pasadenastarnews.com,-0.0476
+Fresno Bee,CA,Fresno,fresnobee.com,-0.0989
+The Fresno Bee,CA,Fresno,fresnobee.com,-0.0989
+Press-Enterprise,CA,Lake Riverside,pe.com,0.0317
+Long Beach Press-Telegram,CA,Long Beach,presstelegram.com,-0.2562
+Press Telegram,CA,Long Beach,presstelegram.com,-0.2562
+Hollywood Reporter,CA,Los Angeles,hollywoodreporter.com,-0.2197
+Investors Business Daily,CA,Los Angeles,investors.com,0.7217
+Jewish Journal,CA,Los Angeles,jewishjournal.com,-0.2029
+Jewish Journal of Greater LA,CA,Los Angeles,jewishjournal.com,-0.2029
+L.A. Weekly,CA,Los Angeles,laweekly.com,-0.4391
+LA Weekly,CA,Los Angeles,laweekly.com,-0.4391
+La Opinion,CA,Los Angeles,laopinion.com,-0.4552
+Los Angeles Daily,CA,Los Angeles,dailynews.com,0.0592
+Los Angeles Sentinel,CA,Los Angeles,lasentinel.net,-0.5403
+Los Angeles Sentinel Newspaper,CA,Los Angeles,lasentinel.net,-0.5403
+Los Angeles Times,CA,Los Angeles,latimes.com,-0.261
+Variety Daily,CA,Los Angeles,variety.com,-0.2409
+Modesto Bee,CA,Modesto,modbee.com,0.1274
+The Modesto Bee,CA,Modesto,modbee.com,0.1274
+San Gabriel Valley Tribune,CA,Monrovia,sgvtribune.com,-0.0625
+Monterey County Herald,CA,Monterey,montereyherald.com,-0.138
+Monterey Herald,CA,Monterey,montereyherald.com,-0.138
+Napa Valley Register,CA,Napa,napavalleyregister.com,0.1744
+Marin Independent Journal,CA,Novato,marinij.com,-0.1937
+East Bay Express,CA,Oakland,eastbayexpress.com,-0.5776
+Inland Valley Daily Bulletin,CA,Ontario,dailybulletin.com,0.1866
+Desert Sun,CA,Palm Springs,desertsun.com,-0.1163
+Palo Alto Online  Palo Alto Weekly,CA,Palo Alto,paloaltoonline.com,-0.2732
+Pasadena Star News,CA,Pasadena,pasadenastarnews.com,-0.0476
+Record Searchlight,CA,Redding,redding.com,0.1458
+Record Searchlight | Redding.com,CA,Redding,redding.com,0.1458
+Sacramento Bee,CA,Sacramento,sacbee.com,-0.1316
+Sacramento News & Review,CA,Sacramento,newsreview.com,-0.272
+The Sacramento Bee,CA,Sacramento,sacbee.com,-0.1316
+San Bernardino Sun,CA,San Bernardino,sbsun.com,0.1353
+San Diego Reader,CA,San Diego,sandiegoreader.com,0.0358
+San Diego Union-Tribune,CA,San Diego,sandiegouniontribune.com,-0.0839
+The San Diego Union-Tribune,CA,San Diego,sandiegouniontribune.com,-0.0839
+Bay View,CA,San Francisco,sfbayview.com,-0.7262
+Chronicle,CA,San Francisco,sfchronicle.com,-0.4104
+SF Weekly,CA,San Francisco,sfweekly.com,-0.5057
+San Francisco Bay View Newspaper,CA,San Francisco,sfbayview.com,-0.7262
+San Francisco Examiner,CA,San Francisco,sfexaminer.com,-0.277
+San Francisco Weekly,CA,San Francisco,sfweekly.com,-0.5057
+San Jose Mercury News,CA,San Jose,mercurynews.com,-0.1167
+The Mercury News,CA,San Jose,mercurynews.com,-0.1167
+SLO Tribune,CA,San Luis Obispo,sanluisobispo.com,-0.0584
+Tribune,CA,San Luis Obispo,sanluisobispo.com,-0.0584
+Orange County Register,CA,Santa Ana,ocregister.com,0.2067
+NOOZHAWK,CA,Santa Barbara,noozhawk.com,-0.1284
+Santa Barbara Independent,CA,Santa Barbara,independent.com,-0.3052
+Santa Cruz Sentinel,CA,Santa Cruz,santacruzsentinel.com,-0.1454
+Press Democrat,CA,Santa Rosa,pressdemocrat.com,-0.1405
+Record,CA,Stockton,recordnet.com,0.0859
+Recordnet.com,CA,Stockton,recordnet.com,0.0859
+Daily Breeze,CA,Torrance,dailybreeze.com,-0.0628
+SGVTribune,CA,West Covina,sgvtribune.com,-0.0625
+Aspen Times,CO,Aspen,aspentimes.com,-0.1952
+Aspen Times Weekly,CO,Aspen,aspentimes.com,-0.1952
+The Aspen Times,CO,Aspen,aspentimes.com,-0.1952
+Aurora Sentinel,CO,Aurora,aurorasentinel.com,0.0746
+Loveland Reporter-Herald,CO,Berthoud,reporterherald.com,0.2672
+BizWest,CO,Boulder,bizwest.com,0.0719
+Boulder Weekly,CO,Boulder,boulderweekly.com,-0.6211
+Colorado Daily,CO,Boulder,coloradodaily.com,-0.4813
+Daily Camera,CO,Boulder,dailycamera.com,-0.3862
+Longmont Times-Call,CO,Boulder,timescall.com,-0.0774
+Colorado Springs Indy,CO,Colorado Springs,csindy.com,0.0201
+Colorado Statesman,CO,Denver,coloradostatesman.com,0.1389
+Denver Post,CO,Denver,denverpost.com,0.0352
+Denver Westword,CO,Denver,westword.com,-0.3379
+The Colorado Statesman,CO,Denver,coloradostatesman.com,0.1389
+The Denver Post,CO,Denver,denverpost.com,0.0352
+Westword,CO,Denver,westword.com,-0.3379
+Durango Herald,CO,Durango,durangoherald.com,-0.1143
+The Durango Herald,CO,Durango,durangoherald.com,-0.1143
+Coloradoan,CO,Fort Collins,coloradoan.com,0.0497
+The Coloradoan,CO,Fort Collins,coloradoan.com,0.0497
+Summit Daily News,CO,Frisco,summitdaily.com,-0.3456
+Glenwood Springs Post Independent,CO,Glenwood Springs,postindependent.com,0.0944
+Post Independent,CO,Glenwood Springs,postindependent.com,0.0944
+The Daily Sentinel of Grand Junction,CO,Grand Junction,gjsentinel.com,-0.0419
+Greeley Tribune,CO,Greeley,greeleytribune.com,0.2
+Daily Times-Call,CO,Longmont,timescall.com,-0.0774
+Daily Reporter-Herald,CO,Loveland,reporterherald.com,0.2672
+High Country News,CO,Paonia,hcn.org,-0.592
+Pueblo Chieftain,CO,Pueblo,chieftain.com,0.005
+The Pueblo Chieftain,CO,Pueblo,chieftain.com,0.005
+Steamboat Pilot,CO,Steamboat Springs,steamboattoday.com,0.1353
+Vail Daily,CO,Vail,vaildaily.com,0.1017
+Connecticut Post,CT,Bridgeport,ctpost.com,-0.0683
+Danbury News-Times,CT,Danbury,newstimes.com,-0.0205
+The News-Times,CT,Danbury,newstimes.com,-0.0205
+CTNow,CT,East Hartford,ctnow.com,-0.1834
+Hartford Business Journal,CT,East Hartford,hartfordbusiness.com,0.0009
+Hartford Courant,CT,East Hartford,courant.com,-0.1115
+Fairfield Citizen-News,CT,Fairfield,fairfieldcitizenonline.com,-0.0665
+Greenwich Time,CT,Greenwich,greenwichtime.com,-0.1122
+Journal Inquirer,CT,Manchester,journalinquirer.com,0.3605
+Record Journal,CT,Meriden,myrecordjournal.com,0.1408
+Record-Journal,CT,Meriden,myrecordjournal.com,0.1408
+Middletown Press,CT,Middletown,middletownpress.com,-0.0745
+New Haven Independent,CT,New Haven,newhavenindependent.org,-0.5474
+New Haven Register,CT,New Haven,nhregister.com,-0.1452
+The Middletown Press,CT,New Haven,middletownpress.com,-0.0745
+The Day,CT,New London,theday.com,-0.0263
+Newtown Bee,CT,Newtown,newtownbee.com,-0.3149
+The Newtown Bee,CT,Newtown,newtownbee.com,-0.3149
+The Hour,CT,Norwalk,thehour.com,-0.0381
+Norwich Bulletin,CT,Norwich,norwichbulletin.com,0.1192
+The Westerly Sun,CT,Pawcatuck,thewesterlysun.com,-0.0077
+Advocate,CT,Stamford,stamfordadvocate.com,-0.0176
+Stamford Advocate,CT,Stamford,stamfordadvocate.com,-0.0176
+Register Citizen,CT,Torrington,registercitizen.com,0.0268
+The Register Citizen,CT,Torrington,registercitizen.com,0.0268
+RA Waterbury,CT,Waterbury,rep-am.com,0.2101
+Republican American,CT,Waterbury,rep-am.com,0.2101
+Waterbury Republican,CT,Waterbury,rep-am.com,0.2101
+Westport News,CT,Westport,westport-news.com,-0.2585
+National Journal,DC,Washington,nationaljournal.com,-0.0941
+Politico,DC,Washington,politico.com,-0.1914
+Reason Magazine,DC,Washington,reason.com,0.3846
+Roll Call,DC,Washington,rollcall.com,-0.1641
+The Daily Caller,DC,Washington,dailycaller.com,0.6958
+The Hill,DC,Washington,thehill.com,-0.06
+The Washington Times,DC,Washington,washingtontimes.com,0.6297
+Town Hall,DC,Washington,townhall.com,0.8498
+Washington City Paper,DC,Washington,washingtoncitypaper.com,-0.6925
+Washington Examiner,DC,Washington,washingtonexaminer.com,0.5399
+Washington Post,DC,Washington,washingtonpost.com,-0.2342
+Washington Post Visuals,DC,Washington,washingtonpost.com,-0.2342
+Washington Times,DC,Washington,washingtontimes.com,0.6297
+Delaware Wave,DE,Bethany Beach,delmarvanow.com,0.1305
+Delaware State News,DE,Dover,delawarestatenews.net,0.0786
+Delaware Online,DE,New Castle,delawareonline.com,-0.0891
+Newark Post,DE,Newark,newarkpostonline.com,0.1144
+News Journal,DE,Wilmington,delawareonline.com,-0.0891
+Bradenton Herald,FL,Bradenton,bradenton.com,0.3184
+News-Journal,FL,Daytona Beach,news-journalonline.com,0.3095
+South Florida Sun Sentinel,FL,Deerfield Beach,sun-sentinel.com,0.1319
+Sun-Sentinel,FL,Fort Lauderdale,sun-sentinel.com,0.1319
+News-Press,FL,Fort Myers,news-press.com,0.3702
+The News-Press (Fort Myers and Cape Coral),FL,Fort Myers,news-press.com,0.3702
+Northwest Florida Daily News,FL,Fort Walton Beach,nwfdailynews.com,0.5121
+Florida Alligator,FL,Gainesville,alligator.org,0.092
+Gainesville Sun,FL,Gainesville,gainesville.com,-0.0327
+The Gainesville Sun,FL,Gainesville,gainesville.com,-0.0327
+The Independent Florida Alligator,FL,Gainesville,alligator.org,0.092
+Florida Times-Union,FL,Jacksonville,jacksonville.com,0.3326
+Folio Weekly,FL,Jacksonville,folioweekly.com,0.0367
+Jacksonville Daily Record,FL,Jacksonville,jaxdailyrecord.com,0.424
+Jax Daily Record,FL,Jacksonville,jaxdailyrecord.com,0.424
+The Florida Times-Union,FL,Jacksonville,jacksonville.com,0.3326
+Business Observer,FL,Lake Sarasota,businessobserverfl.com,0.628
+Sarasota Herald Tribune,FL,Lake Sarasota,heraldtribune.com,0.2612
+Ledger,FL,Lakeland,theledger.com,0.3499
+The Ledger,FL,Lakeland,theledger.com,0.3499
+Daily Commercial,FL,Leesburg,dailycommercial.com,0.3996
+Florida Keys Keynoter,FL,Marathon,flkeysnews.com,-0.0106
+Florida Today,FL,Melbourne,floridatoday.com,0.3232
+Community News of Miami,FL,Miami,communitynewspapers.com,0.2239
+El Nuevo Herald,FL,Miami,elnuevoherald.com,0.0487
+Miami Herald,FL,Miami,miamiherald.com,-0.0444
+Miami New Times,FL,Miami,miaminewtimes.com,-0.3212
+Miami Times,FL,Miami,miamitimesonline.com,-0.25
+Miami Today,FL,Miami,miamitodaynews.com,0.2359
+Miami.com,FL,Miami,miami.com,-0.0826
+Naples Daily News,FL,Naples,naplesnews.com,0.374
+New Times Broward,FL,North Palm Beach,browardpalmbeach.com,-0.0907
+Post,FL,North Palm Beach,palmbeachpost.com,0.0766
+Ocala StarBanner,FL,Ocala,ocala.com,0.248
+Star-Banner,FL,Ocala,ocala.com,0.248
+Orlando Weekly,FL,Orlando,orlandoweekly.com,-0.295
+Weekly,FL,Orlando,orlandoweekly.com,-0.295
+Palm Beach Daily News,FL,Palm Beach,palmbeachdailynews.com,-0.3543
+News Herald,FL,Panama City,newsherald.com,0.5541
+Panama City News Herald,FL,Panama City,newsherald.com,0.5541
+Pensacola News Journal,FL,Pensacola,pnj.com,0.4635
+The Observer,FL,Sarasota,yourobserver.com,0.4942
+Miamis Community Newspapers,FL,South Miami,communitynewspapers.com,0.2239
+St. Augustine Record,FL,St. Augustine,staugustine.com,0.361
+The St. Augustine Record,FL,St. Augustine,staugustine.com,0.361
+Tampa Bay Times,FL,St. Petersburg,tampabay.com,0.0938
+Port Saint Lucie News,FL,Stuart,tcpalm.com,0.3656
+Stuart News,FL,Stuart,tcpalm.com,0.3656
+TCPalm,FL,Stuart,tcpalm.com,0.3656
+Tallahassee Democrat,FL,Tallahassee,tallahassee.com,0.179
+Palm Beach Post,FL,West Palm Beach,palmbeachpost.com,0.0766
+The Palm Beach Post,FL,West Palm Beach,palmbeachpost.com,0.0766
+Albany Herald,GA,Albany,albanyherald.com,-0.2253
+Athens Banner-Herald,GA,Athens,onlineathens.com,0.1399
+Athens Banner-Herald  OnlineAthens.com,GA,Athens,onlineathens.com,0.1399
+Atlanta Daily World,GA,Atlanta,atlantadailyworld.com,-0.3911
+Atlanta Journal-Constitution,GA,Atlanta,ajc.com,-0.0813
+Columbus Ledger-Enquirer,GA,Columbus,ledger-enquirer.com,-0.199
+Ledger-Enquirer,GA,Columbus,ledger-enquirer.com,-0.199
+Macon Telegraph,GA,Macon,macon.com,0.2181
+Marietta Daily Journal,GA,Marietta,mdjonline.com,0.2428
+Morning News,GA,Savannah,savannahnow.com,0.2235
+Savannah Morning News  SavannahNow.com,GA,Savannah,savannahnow.com,0.2235
+Honolulu Star Advertiser,HI,East Honolulu,staradvertiser.com,0.0743
+Honolulu Star-Advertiser,HI,Honolulu,staradvertiser.com,0.0743
+The Ames Tribune,IA,Ames,amestrib.com,0.2889
+Daily Nonpareil,IA,Council Bluffs,nonpareilonline.com,0.5956
+The Daily Nonpareil,IA,Council Bluffs,nonpareilonline.com,0.5956
+Quad City Times,IA,Davenport,qctimes.com,0.2881
+Quad-City Times,IA,Davenport,qctimes.com,0.2881
+Des Moines Register,IA,Des Moines,desmoinesregister.com,0.2004
+Telegraph Herald,IA,Dubuque,thonline.com,0.2875
+"The Messenger, Fort Dodge, Iowa",IA,Fort Dodge,messengernews.net,0.6028
+Iowa City Press-Citizen,IA,Iowa City,press-citizen.com,-0.0038
+Press-Citizen,IA,Iowa City,press-citizen.com,-0.0038
+Globe Gazette,IA,Mason City,globegazette.com,0.3357
+Globe-Gazette,IA,Mason City,globegazette.com,0.3357
+Sioux City Journal,IA,Sioux City,siouxcityjournal.com,0.5127
+Waterloo-Cedar Falls Courier,IA,Waterloo,wcfcourier.com,0.2743
+Boise Weekly,ID,Boise City,boiseweekly.com,-0.0072
+Idaho Business Review,ID,Boise City,idahobusinessreview.com,0.4086
+Idaho Statesman,ID,Boise City,idahostatesman.com,0.221
+Coeur dAlene Press,ID,Coeur dAlene,cdapress.com,0.6114
+Spokesman Review,ID,Coeur dAlene,spokesman.com,0.0198
+Idaho Press,ID,Nampa,idahopress.com,0.4522
+Idaho Press-Tribune,ID,Nampa,idahopress.com,0.4522
+Idaho State Journal,ID,Pocatello,idahostatejournal.com,0.4792
+Daily Herald,IL,Arlington Heights,dailyherald.com,0.1127
+News-Democrat,IL,Belleville,bnd.com,0.2513
+Pantagraph,IL,Bloomington,pantagraph.com,-0.0395
+Southern Illinoisan,IL,Carbondale,thesouthern.com,0.0015
+The Southern Illinoisan,IL,Carbondale,thesouthern.com,0.0015
+News-Gazette,IL,Champaign,news-gazette.com,0.1922
+The News-Gazette,IL,Champaign,news-gazette.com,0.1922
+Chicago Reader,IL,Chicago,chicagoreader.com,-0.7109
+Chicago Reporter,IL,Chicago,chicagoreporter.com,-0.8419
+Chicago Tribune,IL,Chicago,chicagotribune.com,-0.1587
+Crains Chicago Business,IL,Chicago,chicagobusiness.com,-0.1564
+RedEye,IL,Chicago,redeyechicago.com,-0.4655
+The Chicago Reporter,IL,Chicago,chicagoreporter.com,-0.8419
+Northwest Herald,IL,Crystal Lake,nwherald.com,0.1991
+Danville News Gazette,IL,Danville,news-gazette.com,0.1922
+Peoria Journal Star,IL,East Peoria,pjstar.com,0.045
+Journal Star,IL,Peoria,pjstar.com,0.045
+Rock Island Argus,IL,Rock Island,qconline.com,0.045
+State Journal-Register,IL,Springfield,sj-r.com,-0.2453
+Republic,IN,Columbus,therepublic.com,0.0761
+14 NEWS,IN,Evansville,14news.com,0.2809
+Courier  Press,IN,Evansville,courierpress.com,0.2355
+Evansville Courier,IN,Evansville,courierpress.com,0.2355
+Journal Gazette,IN,Fort Wayne,journalgazette.net,0.0015
+The Journal Gazette,IN,Fort Wayne,journalgazette.net,0.0015
+Daily Journal of Johnson Co.,IN,Franklin,dailyjournal.net,0.0246
+Daily Reporter,IN,Greenfield,greenfieldreporter.com,-0.0896
+Greenfield Daily Reporter,IN,Greenfield,greenfieldreporter.com,-0.0896
+Indianapolis Business Journal,IN,Indianapolis,ibj.com,0.1099
+Indy Star,IN,Indianapolis,indystar.com,-0.0714
+IndyStar,IN,Indianapolis,indystar.com,-0.0714
+Nuvo Newsweekly,IN,Indianapolis,nuvo.net,-0.2073
+Journal & Courier,IN,Lafayette,jconline.com,0.091
+FOX Michiana,IN,Mishawaka,wsbt.com,0.331
+Star Press,IN,Muncie,thestarpress.com,0.2668
+The Times of Northwest Indiana,IN,Munster,nwitimes.com,0.0492
+South Bend Tribune,IN,South Bend,southbendtribune.com,0.1353
+Kansas City Star,KS,Arkansas City,kansascity.com,0.1377
+High Plains Journal,KS,Dodge City,hpj.com,0.7491
+Emporia Gazette,KS,Emporia,emporiagazette.com,0.3673
+Garden City Telegram,KS,Garden City,gctelegram.com,0.5441
+The Garden City Telegram,KS,Garden City,gctelegram.com,0.5441
+Hays Daily News,KS,Hays,hdnews.net,0.7052
+Hutchinson News,KS,Hutchinson,hutchnews.com,0.6133
+The Hutchinson News,KS,Hutchinson,hutchnews.com,0.6133
+Lawrence Journal-World,KS,Lawrence,ljworld.com,-0.02
+Mercury,KS,Manhattan,themercury.com,0.3727
+The Manhattan Mercury,KS,Manhattan,themercury.com,0.3727
+Salina Journal,KS,Salina,salina.com,0.5187
+Shawnee Dispatch,KS,Shawnee,shawneedispatch.com,0.5936
+Capital Journal,KS,Topeka,cjonline.com,0.3547
+Topeka Capital-Journal,KS,Topeka,cjonline.com,0.3547
+Wichita Eagle,KS,Wichita,kansas.com,0.4304
+The Daily Independent,KY,Ashland,dailyindependent.com,0.0761
+The Bowling Green Daily News,KY,Bowling Green,bgdailynews.com,0.3749
+River City News,KY,Covington,rcnky.com,0.4172
+News-Enterprise,KY,Elizabethtown,thenewsenterprise.com,0.4726
+The News-Enterprise,KY,Elizabethtown,thenewsenterprise.com,0.4726
+State Journal,KY,Frankfort,state-journal.com,-0.0621
+The Frankfort State Journal,KY,Frankfort,state-journal.com,-0.0621
+Glasgow Daily Times,KY,Glasgow,glasgowdailytimes.com,0.2791
+Kentucky New Era,KY,Hopkinsville,kentuckynewera.com,0.1049
+Kentucky.com,KY,Lexington,kentucky.com,0.0917
+Lexington Herald-Leader,KY,Lexington-Fayette,kentucky.com,0.0917
+Courier-Journal,KY,Louisville,courier-journal.com,0.0697
+Eccentric Observer,KY,Louisville,leoweekly.com,-0.3313
+Louisville Voice-Tribune,KY,Louisville,voice-tribune.com,-0.1776
+The Voice-Tribune,KY,Louisville,voice-tribune.com,-0.1776
+Richmond Register,KY,Richmond,richmondregister.com,0.2305
+Alexandria Daily Town Talk,LA,Alexandria,thetowntalk.com,0.3607
+"The Town Talk Alexandria, La.",LA,Alexandria,thetowntalk.com,0.3607
+Business Report,LA,Baton Rouge,businessreport.com,0.4646
+Greater Baton Rouge Business Report,LA,Baton Rouge,businessreport.com,0.4646
+"The Advocate (Baton Rouge, LA)",LA,Baton Rouge,theadvocate.com,0.159
+Houma Today,LA,Houma,houmatoday.com,0.1836
+Daily Advertiser,LA,Lafayette,theadvertiser.com,0.3796
+The Daily Advertiser,LA,Lafayette,theadvertiser.com,0.3796
+New Orleans CityBusiness,LA,Metairie,neworleanscitybusiness.com,0.3105
+News-Star,LA,Monroe,thenewsstar.com,0.3706
+The News-Star,LA,Monroe,thenewsstar.com,0.3706
+CityBusiness,LA,New Orleans,neworleanscitybusiness.com,0.3105
+Gambit Weekly,LA,New Orleans,bestofneworleans.com,-0.1174
+NOLA.com,LA,New Orleans,nola.com,0.063
+The Shreveport Times,LA,Shreveport,shreveporttimes.com,0.3265
+Daily Comet,LA,Thibodaux,dailycomet.com,0.045
+Zachary Plainsman,LA,Zachary,theadvocate.com,0.159
+Sun Chronicle,MA,Attleboro,thesunchronicle.com,-0.075
+The Sun Chronicle,MA,Attleboro,thesunchronicle.com,-0.075
+Cape Cod Times,MA,Barnstable Town,capecodtimes.com,-0.1952
+7News - WHDH Boston,MA,Boston,whdh.com,-0.0981
+Boston Globe,MA,Boston,bostonglobe.com,-0.3452
+Boston Herald,MA,Boston,bostonherald.com,0.0754
+Christian Science Monitor,MA,Boston,csmonitor.com,-0.2341
+Dorchester Reporter,MA,Boston,dotnews.com,-0.7934
+The Boston Globe,MA,Boston,bostonglobe.com,-0.3452
+The Christian Science Monitor,MA,Boston,csmonitor.com,-0.2341
+The Enterprise of Brockton,MA,Brockton,enterprisenews.com,0.0559
+The Enterprise,MA,East Falmouth,capenews.net,-0.4094
+The Vineyard Gazette,MA,Edgartown,vineyardgazette.com,-0.3615
+Vineyard Gazette,MA,Edgartown,vineyardgazette.com,-0.3615
+HNNow,MA,Fall River,heraldnews.com,-0.2073
+Barnstable Enterprise,MA,Falmouth,capenews.net,-0.4094
+The Bourne Enterprise,MA,Falmouth,capenews.net,-0.4094
+Sentinel  Enterprise,MA,Fitchburg,sentinelandenterprise.com,-0.0686
+Sentinel & Enterprise,MA,Fitchburg,sentinelandenterprise.com,-0.0686
+MetroWest Daily News,MA,Framingham,metrowestdailynews.com,-0.1544
+Gloucester Daily Times,MA,Gloucester,gloucestertimes.com,-0.0564
+The Greenfield Recorder,MA,Greenfield,recorder.com,-0.4388
+Eagle-Tribune,MA,Lawrence,eagletribune.com,0.0239
+Sun,MA,Lowell,lowellsun.com,-0.0426
+The Sun News,MA,Lowell,lowellsun.com,-0.0426
+Daily Evening Item,MA,Lynn,itemlive.com,-0.2732
+Milford Daily News,MA,Milford,milforddailynews.com,-0.0005
+South Coast Today,MA,New Bedford,southcoasttoday.com,-0.3375
+Salem News,MA,New Salem,salemnews.com,-0.2097
+Daily News of Newburyport,MA,Newburyport,newburyportnews.com,0.1527
+Armenian Weekly,MA,Newton,armenianweekly.com,-0.0196
+The Eagle-Tribune,MA,North Andover,eagletribune.com,0.0239
+Daily Hampshire Gazette,MA,Northampton,gazettenet.com,-0.5306
+Berkshire Eagle,MA,Pittsfield,berkshireeagle.com,-0.5639
+Patriot Ledger,MA,Quincy,patriotledger.com,-0.0867
+The Patriot Ledger,MA,Quincy,patriotledger.com,-0.0867
+Taunton Daily Gazette,MA,Taunton,tauntongazette.com,-0.2459
+MV Times,MA,Vineyard Haven,mvtimes.com,-0.25
+The Armenian Weekly,MA,Watertown,armenianweekly.com,-0.0196
+Telegram & Gazette,MA,Worcester,telegram.com,-0.0927
+Worcester Business Journal,MA,Worcester,wbjournal.com,-0.1564
+Worcester Business Jrnl,MA,Worcester,wbjournal.com,-0.1564
+Worcester Telegram  Gazette,MA,Worcester,telegram.com,-0.0927
+Capital Gazette,MD,Annapolis,capitalgazette.com,0.1496
+Afro-American Newspapers,MD,Baltimore,afro.com,-0.6051
+Baltimore Afro American,MD,Baltimore,afro.com,-0.6051
+Baltimore City Paper,MD,Baltimore,citypaper.com,-0.752
+Baltimore Sun,MD,Baltimore,baltimoresun.com,-0.2034
+The Baltimore Sun,MD,Baltimore,baltimoresun.com,-0.2034
+Cumberland Times-News,MD,Cumberland,times-news.com,-0.02
+Star Democrat,MD,Easton,stardem.com,0.0735
+Cecil Whig,MD,Elkton,cecildaily.com,0.1744
+CecilWhig,MD,Elkton,cecildaily.com,0.1744
+Frederick News-Post,MD,Frederick,fredericknewspost.com,-0.0966
+The Frederick News-Post,MD,Frederick,fredericknewspost.com,-0.0966
+Herald-Mail,MD,Hagerstown,heraldmailmedia.com,0.2935
+Herald-Mail Media,MD,Hagerstown,heraldmailmedia.com,0.2935
+Southern Maryland News,MD,La Plata,somdnews.com,0.2132
+The Prince Georges Sentinel,MD,Lanham,thesentinel.com,-0.3651
+Delmarva Now - Daily Times,MD,Salisbury,delmarvanow.com,0.1305
+Delmarvanow,MD,Salisbury,delmarvanow.com,0.1305
+Sentinel Newspapers,MD,Seabrook,thesentinel.com,-0.3651
+Carroll County Times,MD,Westminster,carrollcountytimes.com,0.3663
+Kennebec Journal,ME,Augusta,centralmaine.com,-0.2782
+Bangor Daily News,ME,Bangor,bangordailynews.com,-0.1939
+The Bangor Daily News,ME,Bangor,bangordailynews.com,-0.1939
+Forecaster,ME,Falmouth,theforecaster.net,-0.1801
+Sun-Journal,ME,Lewiston,sunjournal.com,-0.0492
+Mainebiz,ME,New Portland,mainebiz.biz,-0.2073
+Portland Press Herald,ME,New Portland,pressherald.com,-0.4097
+The Forecaster,ME,South Portland,theforecaster.net,-0.1801
+Morning Sentinel,ME,Waterville,centralmaine.com,-0.2782
+The Michigan Daily,MI,Ann Arbor,michigandaily.com,-0.4827
+Crains Detroit Business,MI,Detroit,crainsdetroit.com,-0.0461
+Detroit Free Press,MI,Detroit,freep.com,-0.1156
+Detroit News,MI,Detroit,detroitnews.com,0.0931
+Metro Times,MI,Detroit,metrotimes.com,-0.5513
+Lansing State Journal,MI,East Lansing,lansingstatejournal.com,0.0795
+Oakland Press,MI,Pontiac,theoaklandpress.com,0.045
+The Oakland Press,MI,Troy,theoaklandpress.com,0.045
+Duluth News Tribune,MN,Duluth,duluthnewstribune.com,-0.0077
+Duluth News-Tribune,MN,Duluth,duluthnewstribune.com,-0.0077
+City Pages,MN,Minneapolis,citypages.com,-0.5999
+Star Tribune,MN,Minneapolis,startribune.com,-0.1326
+Post Bulletin,MN,Rochester,postbulletin.com,0.1734
+Post-Bulletin,MN,Rochester,postbulletin.com,0.1734
+Pioneer Press,MN,Saint Paul,twincities.com,0.0619
+St. Cloud Times,MN,St. Cloud,sctimes.com,-0.0448
+St. Paul Pioneer Press,MN,St. Paul,twincities.com,0.0619
+Columbia Daily Tribune,MO,Columbia,columbiatribune.com,-0.0648
+Columbia Missourian,MO,Columbia,columbiamissourian.com,-0.2004
+Joplin Globe,MO,Joplin,joplinglobe.com,0.3463
+The Joplin Globe,MO,Joplin,joplinglobe.com,0.3463
+Pitch,MO,Kansas City,pitch.com,0.0807
+The Kansas City Star,MO,Kansas City,kansascity.com,0.1377
+News-Press NOW,MO,Saint Joseph,newspressnow.com,0.203
+Springfield News-Leader,MO,Springfield,news-leader.com,0.1312
+St. Joseph News-Press,MO,St. Joseph,newspressnow.com,0.203
+St. Louis American,MO,St. Louis,stlamerican.com,-0.7399
+St. Louis Post-Dispatch,MO,St. Louis,stltoday.com,-0.0203
+Riverfront Times,MO,University City,riverfronttimes.com,-0.4402
+Sun Herald,MS,Biloxi,sunherald.com,0.0819
+SunHerald,MS,Gulfport,sunherald.com,0.0819
+Hattiesburg American,MS,Hattiesburg,hattiesburgamerican.com,0.3209
+Clarion Ledger,MS,Jackson,clarionledger.com,-0.2341
+Clarion-Ledger,MS,Jackson,clarionledger.com,-0.2341
+Jackson Free Press,MS,Jackson,jacksonfreepress.com,-0.8329
+Billings Gazette,MT,Billings,billingsgazette.com,-0.2894
+Bozeman Daily Chronicle,MT,Bozeman,bozemandailychronicle.com,-0.0883
+Montana Standard,MT,Butte,mtstandard.com,-0.1776
+The Montana Standard,MT,Butte,mtstandard.com,-0.1776
+Independent Record,MT,East Helena,helenair.com,-0.193
+Missoulian,MT,East Missoula,missoulian.com,-0.3516
+Great Falls Tribune,MT,Great Falls,greatfallstribune.com,0.0387
+Helena Independent Record,MT,Helena,helenair.com,-0.193
+Flathead Beacon,MT,Kalispell,flatheadbeacon.com,-0.2401
+Courier Tribune,NC,Asheboro,courier-tribune.com,0.2197
+Asheville Citizen Times,NC,Asheville,citizen-times.com,-0.0089
+Asheville Citizen-Times,NC,Asheville,citizen-times.com,-0.0089
+Mountain Xpress,NC,Asheville,mountainx.com,-0.3883
+The Times-News,NC,Burlington,thetimesnews.com,-0.1148
+Charlotte Observer,NC,Charlotte,charlotteobserver.com,0.009
+Charlotte Post,NC,Charlotte,thecharlottepost.com,-0.3357
+Creative Loafing,NC,Charlotte,clclt.com,-0.3812
+Creative Loafing Charlotte,NC,Charlotte,clclt.com,-0.3812
+The Charlotte Observer,NC,Charlotte,charlotteobserver.com,0.009
+The Charlotte Post,NC,Charlotte,thecharlottepost.com,-0.3357
+Independent Tribune,NC,Concord,independenttribune.com,0.4468
+Herald-Sun,NC,Durham,heraldsun.com,-0.2222
+Indy Week,NC,Durham,indyweek.com,-0.6203
+Fayetteville Observer,NC,Fayetteville,fayobserver.com,0.0832
+The Fayetteville Observer,NC,Fayetteville,fayobserver.com,0.0832
+Gaston Gazette,NC,Gastonia,gastongazette.com,0.2891
+The Gaston Gazette,NC,Gastonia,gastongazette.com,0.2891
+News and Record,NC,Greensboro,greensboro.com,-0.0961
+Daily Reflector,NC,Greenville,reflector.com,-0.0578
+The Daily Reflector,NC,Greenville,reflector.com,-0.0578
+BlueRidgeNow.com,NC,Hendersonville,blueridgenow.com,0.4687
+Blueridgenow,NC,Hendersonville,blueridgenow.com,0.4687
+Hickory Daily Record,NC,Hickory,hickoryrecord.com,0.3964
+Hickory Daily Record | hickoryrecord.com,NC,Hickory,hickoryrecord.com,0.3964
+Jacksonville Daily News,NC,Jacksonville,jdnews.com,0.3045
+Kinston Free Press,NC,Kinston,kinston.com,-0.0538
+The Dispatch of Lexington,NC,Lexington,the-dispatch.com,0.4512
+Robesonian,NC,Lumberton,robesonian.com,0.5139
+The Robesonian,NC,Lumberton,robesonian.com,0.5139
+Sun Journal,NC,New Bern,newbernsj.com,-0.0538
+The New Bern Sun Journal,NC,New Bern,newbernsj.com,-0.0538
+News and Observer,NC,Raleigh,newsobserver.com,-0.1549
+North State Journal,NC,Raleigh,nsjonline.com,0.533
+Salisbury Post,NC,Salisbury,salisburypost.com,0.4362
+Shelby Star,NC,Shelby,shelbystar.com,0.3621
+The Shelby Star,NC,Shelby,shelbystar.com,0.3621
+Pilot,NC,Southern Pines,thepilot.com,0.3727
+Record & Landmark,NC,Statesville,statesville.com,0.2761
+Star-News Online,NC,Wilmington,starnewsonline.com,0.1902
+StarNews,NC,Wilmington,starnewsonline.com,0.1902
+Wilson Daily Times,NC,Wilson,wilsontimes.com,0.0599
+Wilson Times Co.,NC,Wilson,wilsontimes.com,0.0599
+Winston-Salem Journal,NC,Winston-Salem,journalnow.com,0.0747
+Winston-Salem Journal | JournalNow,NC,Winston-Salem,journalnow.com,0.0747
+Bismarck Tribune,ND,Bismarck,bismarcktribune.com,-0.2806
+The Bismarck Tribune,ND,Bismarck,bismarcktribune.com,-0.2806
+The Dickinson Press,ND,Dickinson,thedickinsonpress.com,0.1744
+INForum,ND,Fargo,inforum.com,-0.1438
+Grand Forks Herald,ND,Grand Forks,grandforksherald.com,-0.0073
+Columbus Telegram,NE,Columbus,columbustelegram.com,0.5139
+Fremont Tribune,NE,Fremont,fremonttribune.com,0.6413
+Austin Koeller - GI Independent Reporter,NE,Grand Island,theindependent.com,0.5022
+The Grand Island Independent,NE,Grand Island,theindependent.com,0.5022
+Hastings Tribune,NE,Hastings,hastingstribune.com,0.4223
+Kearney Daily Hub,NE,Kearney,kearneyhub.com,0.5697
+Kearney Hub,NE,Kearney,kearneyhub.com,0.5697
+Lincoln Journal Star,NE,Lincoln,journalstar.com,0.4244
+McCook Daily Gazette,NE,McCook,mccookgazette.com,0.725
+McCook Gazette,NE,McCook,mccookgazette.com,0.725
+Norfolk Daily News,NE,Norfolk,norfolkdailynews.com,0.7095
+North Platte Telegraph,NE,North Platte,nptelegraph.com,0.678
+The North Platte Telegraph,NE,North Platte,nptelegraph.com,0.678
+Omaha World-Herald,NE,Omaha,omaha.com,0.4046
+Omaha-World Herald,NE,Omaha,omaha.com,0.4046
+Scottsbluff Star-Herald,NE,Scottsbluff,starherald.com,0.4627
+News Times,NE,York,yorknewstimes.com,0.6552
+York News-Times,NE,York,yorknewstimes.com,0.6552
+Fosters Daily Democrat,NH,Andover,fosters.com,0.0482
+Colebrook Chronicle,NH,Colebrook,colebrookchronicle.weebly.com,0.096
+Concord Monitor,NH,Concord,concordmonitor.com,-0.1948
+The Concord Monitor,NH,Concord,concordmonitor.com,-0.1948
+Keene Sentinel,NH,Keene,sentinelsource.com,-0.0849
+The Keene Sentinel,NH,Keene,sentinelsource.com,-0.0849
+New Hampshire Business Review,NH,Manchester,nhbr.com,0.0015
+New Hampshire Union Leader,NH,Manchester,unionleader.com,0.3961
+Union Leader,NH,Manchester,unionleader.com,0.3961
+The Telegraph and NashuaTelegraph.com,NH,Nashua,nashuatelegraph.com,0.2708
+Seacoastonline.com,NH,Portsmouth,seacoastonline.com,-0.0714
+The Hudson Reporter,NJ,Bayonne,hudsonreporter.com,-0.5057
+Courier-News,NJ,Bridgewater,mycentraljersey.com,0.0879
+Courier-Post,NJ,Cherry Hill,courierpostonline.com,-0.086
+Home News & Tribune,NJ,East Brunswick,mycentraljersey.com,0.0879
+NJ.com,NJ,Jersey City,nj.com,-0.1036
+NJ.com,NJ,Jersey City,nj.com,-0.1036
+Central Jersey Newspapers,NJ,Manalapan,centraljersey.com,-0.1506
+Asbury Park Press,NJ,Neptune,app.com,0.0875
+The Asbury Park Press,NJ,Neptune City,app.com,0.0875
+NJBIZ,NJ,New Brunswick,njbiz.com,0.1044
+The Star-Ledger,NJ,Newark,nj.com,-0.1036
+The Star-Ledger,NJ,Newark,nj.com,-0.1036
+New Jersey Herald,NJ,Newton,njherald.com,0.2805
+Press of Atlantic City,NJ,Pleasantville,pressofatlanticcity.com,0.108
+Shore News Today,NJ,Pleasantville,shorenewstoday.com,0.4557
+The Press of Atlantic City,NJ,Pleasantville,pressofatlanticcity.com,0.108
+NJTODAY,NJ,Rahway,njtoday.net,-0.1107
+NJToday.net,NJ,Rahway,njtoday.net,-0.1107
+Cape May County Herald,NJ,Rio Grande,capemaycountyherald.com,0.1802
+Cape May County Herald Newspapers,NJ,Rio Grande,capemaycountyherald.com,0.1802
+MyCentralJersey,NJ,Somerville,mycentraljersey.com,0.0879
+Trentonian,NJ,Trenton,trentonian.com,-0.0263
+Shore News,NJ,Upper,shorenewstoday.com,0.4557
+The Daily Journal,NJ,Vineland,thedailyjournal.com,0.0551
+Vineland Daily Journal,NJ,Vineland,thedailyjournal.com,0.0551
+Burlington County Times,NJ,Westampton,burlingtoncountytimes.com,0.045
+NorthJersey.com,NJ,Woodland Park,northjersey.com,-0.0732
+Verona-Cedar Grove Times,NJ,Woodland Park,northjersey.com,-0.0732
+Albuquerque Journal,NM,Albuquerque,abqjournal.com,-0.1089
+Weekly Alibi,NM,Albuquerque,alibi.com,-0.4655
+Santa Fe New Mexican,NM,Eldorado at Santa Fe,santafenewmexican.com,-0.3513
+Santa Fe Reporter,NM,Eldorado at Santa Fe,sfreporter.com,-0.6463
+The Daily Times,NM,Farmington,daily-times.com,0.045
+Las Cruces Sun-News,NM,Las Cruces,lcsun-news.com,-0.0891
+Taos News,NM,Ranchos de Taos,taosnews.com,-0.1751
+The Santa Fe New Mexican,NM,Santa Fe,santafenewmexican.com,-0.3513
+Nevada Appeal,NV,Carson City,nevadaappeal.com,0.1226
+Elko Daily Free Press,NV,Elko,elkodaily.com,0.3863
+Guardian Liberty Voice,NV,Las Vegas,guardianlv.com,-0.179
+Las Vegas Review Journal,NV,Las Vegas,reviewjournal.com,0.1918
+Las Vegas Review-Journal,NV,Las Vegas,reviewjournal.com,0.1918
+Las Vegas Sun,NV,Las Vegas,lasvegassun.com,0.0727
+Las Vegas Weekly,NV,Las Vegas,lasvegasweekly.com,0.0395
+News & Review,NV,Reno,newsreview.com,-0.272
+RGJ  Reno Gazette Journal,NV,Reno,rgj.com,0.1664
+Reno Gazette-Journal,NV,Reno,rgj.com,0.1664
+Journal  Courier,NY,Albany,jconline.com,0.091
+Somerset Herald,NY,Albany,delmarvanow.com,0.1305
+The Columbian,NY,Albany,columbian.com,-0.2822
+The Guardian,NY,Ballston Spa,theguardian.com,-0.3893
+Batavia Daily News,NY,Batavia,thedailynewsonline.com,0.4566
+TimesLedger Newspapers,NY,Bayside,timesledger.com,-0.5821
+Press & Sun-Bulletin,NY,Binghamton,pressconnects.com,-0.0097
+pressconnects.com / Press  Sun-Bulletin,NY,Binghamton,pressconnects.com,-0.0097
+Brooklyn Eagle,NY,Brooklyn,brooklyneagle.com,-0.5115
+The Villager Newspaper,NY,Brooklyn,thevillager.com,-0.7859
+Artvoice,NY,Buffalo,artvoice.com,-0.25
+Buffalo News,NY,Buffalo,buffalonews.com,-0.0199
+The Buffalo News,NY,Buffalo,buffalonews.com,-0.0199
+Daily Messenger,NY,Canandaigua,mpnnow.com,0.2295
+Messenger Post Media,NY,Canandaigua,mpnnow.com,0.2295
+Messenger Post Media Victor  Farmington Post,NY,Canandaigua,mpnnow.com,0.2295
+Hudson Register-Star,NY,Castleton-on-Hudson,registerstar.com,-0.1564
+27east.com,NY,East Hampton,27east.com,-0.0899
+East Hampton Star,NY,East Hampton,easthamptonstar.com,-0.4962
+The East Hampton Star,NY,East Hampton,easthamptonstar.com,-0.4962
+Ithaca Journal,NY,East Ithaca,ithacajournal.com,-0.3251
+Ithaca Times,NY,East Ithaca,ithaca.com,-0.2775
+Daily Freeman,NY,East Kingston,dailyfreeman.com,-0.2551
+Democrat & Chronicle,NY,East Rochester,democratandchronicle.com,0.0169
+Star-Gazette,NY,Elmira,stargazette.com,0.018
+stargazette.com / Star-Gazette,NY,Elmira,stargazette.com,0.018
+Franklin Square/Elmont Herald,NY,Garden City,liherald.com,-0.084
+Freeport-Baldwin Leader Newspaper,NY,Garden City,liherald.com,-0.084
+Glen Cove Herald Gazette,NY,Garden City,liherald.com,-0.084
+Long Island Press,NY,Garden City,longislandpress.com,-0.0461
+Malverne West Hempstead Herald,NY,Garden City,liherald.com,-0.084
+Livingston County News,NY,Geneseo,thelcn.com,0.1811
+Finger Lakes Times,NY,Geneva,fltimes.com,-0.1654
+Post-Star,NY,Glens Falls,poststar.com,0.2347
+The Post-Star,NY,Glens Falls,poststar.com,0.2347
+Register-Star,NY,Hudson,registerstar.com,-0.1564
+ithacajournal.com / Ithaca Journal,NY,Ithaca,ithacajournal.com,-0.3251
+Long Island Business News,NY,Lake Ronkonkoma,libn.com,0.0951
+Herald Community Newspapers,NY,Lawrence,liherald.com,-0.084
+Lynbrook/East Rockaway Herald,NY,Lawrence,liherald.com,-0.084
+Oceanside Island Park Herald,NY,Lawrence,liherald.com,-0.084
+Newsday,NY,Melville,newsday.com,-0.0843
+Times Herald-Record,NY,Middletown,recordonline.com,-0.0162
+recordonline.com,NY,Middletown,recordonline.com,-0.0162
+Rockland County Times,NY,Nanuet,rocklandtimes.com,0.1003
+Rockland County Times - the REAL SCOOP on local news since 1888,NY,Nanuet,rocklandtimes.com,0.1003
+Black Enterprise,NY,New York,blackenterprise.com,-0.6226
+FiveThirtyEight,NY,New York,fivethirtyeight.com,-0.388
+Harpers Magazine,NY,New York,harpers.org,-0.756
+National Review,NY,New York,nationalreview.com,0.6361
+THE WEEK,NY,New York,theweek.com,-0.1771
+The Chief-Leader,NY,New York,thechiefleader.com,-0.663
+The Nation Magazine,NY,New York,thenation.com,-0.7298
+Brooklyn Daily Eagle,NY,New York City,brooklyneagle.com,-0.5115
+Brooklyn Reporter,NY,New York City,brooklynreporter.com,-0.2004
+Chief Leader,NY,New York City,thechiefleader.com,-0.663
+Crains New York Business,NY,New York City,crainsnewyork.com,-0.4086
+Gotham Gazette,NY,New York City,gothamgazette.com,-0.7524
+New York Daily News,NY,New York City,nydailynews.com,-0.254
+New York Observer,NY,New York City,observer.com,-0.1827
+New York Post,NY,New York City,nypost.com,0.1813
+New York Sun,NY,New York City,nysun.com,0.5494
+New York Times,NY,New York City,nytimes.com,-0.2602
+Queens Chronicle,NY,New York City,qchron.com,-0.5258
+Wall Street Journal,NY,New York City,wsj.com,0.0106
+am New York,NY,New York City,amny.com,-0.4638
+MidHudsonNews.com,NY,Newburgh,midhudsonnews.com,-0.0026
+Niagara Gazette,NY,Niagara Falls,niagara-gazette.com,0.1133
+Olean Times Herald,NY,Olean,oleantimesherald.com,0.1677
+Daily Dispatch,NY,Oneida,oneidadispatch.com,-0.2601
+Oneida Daily Dispatch,NY,Oneida,oneidadispatch.com,-0.2601
+Press-Republican,NY,Plattsburgh,pressrepublican.com,-0.0708
+North Country Now,NY,Potsdam,northcountrynow.com,-0.032
+NorthCountryNow.com,NY,Potsdam,northcountrynow.com,-0.032
+Poughkeepsie Journal,NY,Poughkeepsie,poughkeepsiejournal.com,-0.0314
+QNS,NY,Queens,qns.com,-0.6111
+Queens Gazette,NY,Queens,qgazette.com,-0.5704
+Queens Tribune,NY,Queens,queenstribune.com,-0.5586
+Democrat and Chronicle,NY,Rochester,democratandchronicle.com,0.0169
+Fox Rochester WUHF,NY,Rochester,foxrochester.com,-0.0421
+RBJ,NY,Rochester,rbj.net,0.1757
+Adirondack Daily Enterprise,NY,Saranac Lake,adirondackdailyenterprise.com,-0.1454
+Saratogian,NY,Saratoga Springs,saratogian.com,0.198
+The Saratogian,NY,Saratoga Springs,saratogian.com,0.198
+Daily Gazette,NY,Schenectady,dailygazette.com,0.0368
+The Daily Gazette Sports,NY,Schenectady,dailygazette.com,0.0368
+The Daily Gazette of Schenectady,NY,Schenectady,dailygazette.com,0.0368
+27east,NY,Southampton,27east.com,-0.0899
+Staten Island Advance,NY,Staten Island,silive.com,-0.1686
+Riverdale Press,NY,The Bronx,riverdalepress.com,-0.5237
+Observer-Dispatch,NY,Utica,uticaod.com,0.2141
+Watertown Daily Times,NY,Watertown,watertowndailytimes.com,0.1764
+LoHud.com,NY,White Plains,lohud.com,-0.1004
+lohud,NY,White Plains,lohud.com,-0.1004
+The Island Now,NY,Williston Park,theislandnow.com,-0.0181
+Akron Beacon Journal,OH,Akron,ohio.com,-0.0189
+Canton Repository,OH,Canton,cantonrep.com,0.3176
+Cincinnati City Beat,OH,Cincinnati,citybeat.com,-0.3737
+Cincinnati CityBeat,OH,Cincinnati,citybeat.com,-0.3737
+Cincinnati Enquirer,OH,Cincinnati,cincinnati.com,0.1238
+Cleveland Scene,OH,Cleveland,clevescene.com,-0.3864
+Cleveland Scene Magazine,OH,Cleveland,clevescene.com,-0.3864
+Crains Cleveland Business,OH,Cleveland,crainscleveland.com,0.1384
+Columbus Dispatch,OH,Columbus,dispatch.com,-0.1494
+Dayton Daily News,OH,Dayton,daytondailynews.com,0.0576
+Newark Advocate,OH,Newark,newarkadvocate.com,0.1525
+The Blade,OH,Toledo,toledoblade.com,-0.0608
+Toledo Blade,OH,Toledo,toledoblade.com,-0.0608
+News-Herald,OH,Willoughby,news-herald.com,0.3225
+Vindicator Online,OH,Youngstown,vindy.com,0.1866
+Edmond Evening Sun,OK,Edmond,edmondsun.com,0.58
+The Edmond Sun,OK,Edmond,edmondsun.com,0.58
+Enid News  Eagle,OK,Enid,enidnews.com,0.5259
+Enid News  Eagle Advertising,OK,Enid,enidnews.com,0.5259
+Enid News and Eagle,OK,Enid,enidnews.com,0.5259
+Muskogee Phoenix,OK,Muskogee,muskogeephoenix.com,0.5249
+Norman Transcript,OK,Norman,normantranscript.com,0.3523
+The Norman Transcript,OK,Norman,normantranscript.com,0.3523
+Journal Record,OK,Oklahoma City,journalrecord.com,0.4027
+NewsOK,OK,Oklahoma City,newsok.com,0.4456
+Oklahoman,OK,Oklahoma City,newsok.com,0.4456
+The Journal Record,OK,Oklahoma City,journalrecord.com,0.4027
+Stillwater News Press,OK,Stillwater,stwnewspress.com,0.4391
+Stillwater News-Press,OK,Stillwater,stwnewspress.com,0.4391
+Tahlequah Daily Press,OK,Tahlequah,tahlequahdailypress.com,0.1322
+Tulsa World,OK,Tulsa,tulsaworld.com,0.3603
+Albany Democrat-Herald,OR,Albany,democratherald.com,0.057
+Democrat-Herald,OR,Albany,democratherald.com,0.057
+Ashland Daily Tidings,OR,Ashland,dailytidings.com,-0.6915
+Daily Astorian,OR,Astoria,dailyastorian.com,-0.2133
+The Astorian,OR,Astoria,dailyastorian.com,-0.2133
+Bulletin,OR,Bend,bendbulletin.com,-0.1403
+The Bulletin,OR,Bend,bendbulletin.com,-0.1403
+The World Newspaper,OR,Coos Bay,theworldlink.com,0.1256
+Corvallis Gazette Times,OR,Corvallis,gazettetimes.com,-0.2168
+Eugene Weekly,OR,Eugene,eugeneweekly.com,-0.7197
+Register-Guard,OR,Eugene,registerguard.com,-0.1947
+The Register-Guard,OR,Eugene,registerguard.com,-0.1947
+Herald and News,OR,Klamath Falls,heraldandnews.com,0.0693
+"Herald and News - Klamath Falls, Ore.",OR,Klamath Falls,heraldandnews.com,0.0693
+Mail Tribune,OR,Medford,mailtribune.com,-0.131
+East Oregonian,OR,Pendleton,eastoregonian.com,0.1076
+Oregonian,OR,Portland,oregonlive.com,-0.2834
+Portland Mercury,OR,Portland,portlandmercury.com,-0.8211
+Portland Tribune,OR,Portland,portlandtribune.com,-0.1865
+Skanner,OR,Portland,theskanner.com,-0.8057
+The Skanner News Group,OR,Portland,theskanner.com,-0.8057
+Willamette Week,OR,Portland,wweek.com,-0.6215
+News-Review,OR,Roseburg,nrtoday.com,0.0254
+Capital Press,OR,Salem,capitalpress.com,0.1113
+Capital Press Agriculture Weekly,OR,Salem,capitalpress.com,0.1113
+Statesman Journal,OR,Salem,statesmanjournal.com,-0.0928
+The Oregonian,OR,USA,oregonlive.com,-0.2834
+Morning Call,PA,Allentown,mcall.com,0.1789
+The Morning Call,PA,Allentown,mcall.com,0.1789
+The Altoona Mirror,PA,Altoona,altoonamirror.com,0.2917
+Beaver County Times,PA,Beaver,timesonline.com,0.1328
+Public Opinion Online,PA,Chambersburg,publicopiniononline.com,0.337
+Gant Daily,PA,Clearfield,gantdaily.com,0.225
+Intelligencer,PA,Doylestown,theintell.com,0.0599
+New Pittsburgh Courier,PA,East Pittsburgh,newpittsburghcourieronline.com,-0.555
+Pittsburgh City Paper,PA,East Pittsburgh,pghcitypaper.com,-0.635
+Pittsburgh Post-Gazette,PA,East Pittsburgh,post-gazette.com,-0.0408
+Pittsburgh Tribune-Review,PA,East Pittsburgh,triblive.com,0.1962
+Pocono Record,PA,East Stroudsburg,poconorecord.com,0.2132
+Herald-Standard,PA,East Uniontown,heraldstandard.com,0.1172
+Observer-Reporter,PA,East Washington,observer-reporter.com,0.1999
+York Daily Record,PA,East York,ydr.com,0.2475
+York Dispatch,PA,East York,yorkdispatch.com,0.1967
+lehighvalleylive.com,PA,Easton,lehighvalleylive.com,0.1343
+GoErie,PA,Erie,goerie.com,-0.0732
+GoErie.com | Erie Times-News,PA,Erie,goerie.com,-0.0732
+Delaware County Daily Times,PA,Folsom,delcotimes.com,0.169
+Lehigh Valley Live,PA,Harrisburg,lehighvalleylive.com,0.1343
+Hazleton Standard Speaker,PA,Hazleton,standardspeaker.com,0.2101
+Standard-Speaker,PA,Hazleton,standardspeaker.com,0.2101
+Indiana Gazette,PA,Indiana,indianagazette.com,0.1641
+The Indiana Gazette,PA,Indiana,indianagazette.com,0.1641
+Tribune Democrat,PA,Johnstown,tribdem.com,0.1224
+Lancaster Online,PA,Lancaster,lancasteronline.com,0.2046
+Lebanon Daily News,PA,Lebanon,ldnews.com,0.4414
+Bucks County Courier Times,PA,Levittown,buckscountycouriertimes.com,0.1298
+Meadville Tribune,PA,Meadville,meadvilletribune.com,0.2851
+The Meadville Tribune,PA,Meadville,meadvilletribune.com,0.2851
+New Castle News,PA,New Castle,ncnewsonline.com,0.0974
+Philadelphia Weekly,PA,Philadelphia,philadelphiaweekly.com,-0.5648
+Philly Weekly,PA,Philadelphia,philadelphiaweekly.com,-0.5648
+Pottstown Mercury,PA,Pottstown,pottsmerc.com,0.0824
+Republican Herald,PA,Pottsville,republicanherald.com,0.2475
+Republican-Herald,PA,Pottsville,republicanherald.com,0.2475
+Delco Daily Times Sports,PA,Primos,delcotimes.com,0.169
+Reading Eagle,PA,Reading,readingeagle.com,0.1776
+The Scranton Times-Tribune,PA,Scranton,thetimes-tribune.com,-0.0402
+Times-Tribune,PA,Scranton,thetimes-tribune.com,-0.0402
+Daily American,PA,Somerset,dailyamerican.com,0.4726
+The Daily American,PA,Somerset,dailyamerican.com,0.4726
+Sun-Gazette,PA,South Williamsport,sungazette.com,0.2819
+Centre Daily Times,PA,State College,centredaily.com,0.1504
+Daily Item,PA,Sunbury,dailyitem.com,0.2385
+The Daily Item,PA,Sunbury,dailyitem.com,0.2385
+Main Line Media News,PA,Wayne,mainlinemedianews.com,-0.0893
+Daily Local News,PA,West Chester,dailylocal.com,0.2307
+The Daily Local News,PA,West Chester,dailylocal.com,0.2307
+Citizens Voice,PA,Wilkes-Barre,citizensvoice.com,0.2122
+The Citizens Voice,PA,Wilkes-Barre,citizensvoice.com,0.2122
+Williamsport Sun-Gazette,PA,Williamsport,sungazette.com,0.2819
+The York Dispatch,PA,York,yorkdispatch.com,0.1967
+York Daily Record/Sunday News,PA,York,ydr.com,0.2475
+Valley Breeze,RI,Cumberland,valleybreeze.com,-0.3584
+Providence Business News,RI,East Providence,pbn.com,-0.4213
+Providence Journal,RI,East Providence,providencejournal.com,-0.3751
+The Valley Breeze Newspapers,RI,Lincoln,valleybreeze.com,-0.3584
+The Providence Journal,RI,Providence,providencejournal.com,-0.3751
+Warwick Beacon,RI,Warwick,warwickonline.com,-0.1858
+Westerly Sun,RI,Westerly,thewesterlysun.com,-0.0077
+Aiken Standard,SC,Aiken,aikenstandard.com,0.1641
+The Island Packet,SC,Bluffton,islandpacket.com,0.1309
+Charleston City Paper,SC,Charleston,charlestoncitypaper.com,-0.2073
+Post and Courier,SC,Charleston,postandcourier.com,-0.2406
+State,SC,Columbia,thestate.com,0.0758
+The State Newspaper,SC,Columbia,thestate.com,0.0758
+Greenville News,SC,Greenville,greenvilleonline.com,0.1553
+Tribune Times,SC,Greenville,greenvilleonline.com,0.1553
+Island Packet,SC,Hilton Head Island,islandpacket.com,0.1309
+Rock Hill Herald,SC,Rock Hill,heraldonline.com,0.0988
+Spartanburg Herald-Journal,SC,Spartanburg,goupstate.com,0.2843
+Aberdeen American News,SD,Aberdeen,aberdeennews.com,0.4177
+Pierre Capital Journal,SD,Fort Pierre,capjournal.com,0.542
+Mitchell Republic,SD,Mitchell,mitchellrepublic.com,0.5818
+Rapid City Journal,SD,Rapid City,rapidcityjournal.com,0.2475
+Argus Leader,SD,Sioux Falls,argusleader.com,0.4518
+Argus Leader Media,SD,Sioux Falls,argusleader.com,0.4518
+Press & Dakotan,SD,Yankton,yankton.net,0.3394
+Yankton Daily Press  Dakotan,SD,Yankton,yankton.net,0.3394
+Chattanooga Times,TN,Chattanooga,timesfreepress.com,-0.0026
+Chattanoogan,TN,Chattanooga,chattanoogan.com,0.045
+Chattanoogan.com,TN,Chattanooga,chattanoogan.com,0.045
+Jackson Sun,TN,Jackson,jacksonsun.com,0.4223
+The Jackson Sun,TN,Jackson,jacksonsun.com,0.4223
+Bristol Herald Courier,TN,Johnson City,heraldcourier.com,0.115
+Knoxville News Sentinel,TN,Knoxville,knoxnews.com,0.1287
+Knoxville News-Sentinel,TN,Knoxville,knoxnews.com,0.1287
+Commercial Appeal,TN,Memphis,commercialappeal.com,-0.0222
+Memphis Daily News,TN,Memphis,memphisdailynews.com,-0.1564
+Memphis Flyer,TN,Memphis,memphisflyer.com,-0.3911
+The Commercial Appeal,TN,Memphis,commercialappeal.com,-0.0222
+The Memphis Flyer,TN,Memphis,memphisflyer.com,-0.3911
+Nashville Scene,TN,Nashville,nashvillescene.com,-0.3931
+Tennessean,TN,Nashville,tennessean.com,0.1288
+WKRN News 2,TN,Nashville,wkrn.com,0.3045
+Amarillo Globe-News,TX,Amarillo,amarillo.com,0.4287
+Austin American Statesman,TX,Austin,statesman.com,-0.0242
+Austin Chronicle,TX,Austin,austinchronicle.com,-0.5237
+KVUE,TX,Austin,kvue.com,0.1063
+Texas Tribune,TX,Austin,texastribune.org,-0.332
+Beaumont Enterprise,TX,Beaumont,beaumontenterprise.com,-0.2306
+The Beaumont Enterprise,TX,Beaumont,beaumontenterprise.com,-0.2306
+Bryan-College Station Eagle,TX,Bryan,theeagle.com,-0.0928
+The Eagle,TX,Bryan,theeagle.com,-0.0928
+Caller-Times,TX,Corpus Christi,caller.com,0.2322
+Corpus Christi Caller-Times,TX,Corpus Christi,caller.com,0.2322
+Dallas Morning News,TX,Dallas,dallasnews.com,-0.2175
+Dallas Observer,TX,Dallas,dallasobserver.com,0.1962
+El Paso Times,TX,El Paso,elpasotimes.com,-0.3264
+Fort Worth Star-Telegram,TX,Fort Worth,star-telegram.com,0.2801
+Galveston County Daily News,TX,Galveston,galvnews.com,-0.3651
+Houston Chronicle,TX,Houston,chron.com,-0.1725
+Houston Press,TX,Houston,houstonpress.com,-0.3442
+Lubbock Avalanche Journal,TX,Lubbock,lubbockonline.com,0.2126
+Lubbock Avalanche-Journal,TX,Lubbock,lubbockonline.com,0.2126
+The Monitor,TX,McAllen,themonitor.com,0.1228
+My San Antonio from the Express-News,TX,San Antonio,mysanantonio.com,0.0318
+MySA,TX,San Antonio,mysanantonio.com,0.0318
+San Antonio Current,TX,San Antonio,sacurrent.com,-0.7248
+Waco Tribune-Herald,TX,Waco,wacotrib.com,0.0503
+Spectrum,UT,Ivins,thespectrum.com,0.4745
+St. George News,UT,Ivins,stgeorgeutah.com,0.5979
+The Herald Journal,UT,Logan,news.hjnews.com,0.5399
+Standard-Examiner,UT,North Ogden,standard.net,0.4708
+Park Record,UT,Park City,parkrecord.com,0.0802
+St. George News | STGnews.com,UT,Saint George,stgeorgeutah.com,0.5979
+Deseret News,UT,Salt Lake City,deseretnews.com,0.5662
+KSL.com,UT,Salt Lake City,ksl.com,0.6504
+Salt Lake City Weekly,UT,Salt Lake City,cityweekly.net,-0.0958
+Salt Lake Tribune,UT,Salt Lake City,sltrib.com,0.1265
+The Salt Lake Tribune,UT,Salt Lake City,sltrib.com,0.1265
+Daily Progress,VA,Charlottesville,dailyprogress.com,-0.3991
+The Daily Progress,VA,Charlottesville,dailyprogress.com,-0.3991
+Free Lance-Star,VA,Fredericksburg,fredericksburg.com,-0.1827
+fredericksburg.com,VA,Fredericksburg,fredericksburg.com,-0.1827
+Loudoun Times Mirror,VA,Leesburg,loudountimes.com,-0.304
+Loudoun Times-Mirror,VA,Leesburg,loudountimes.com,-0.304
+News & Advance,VA,Lynchburg,newsadvance.com,0.3471
+The News  Advance,VA,Lynchburg,newsadvance.com,0.3471
+USA Today,VA,McLean,usatoday.com,0.0582
+Virginian Pilot,VA,Norfolk,pilotonline.com,-0.0529
+Air Force Times,VA,North Springfield,airforcetimes.com,-0.108
+Army Times,VA,North Springfield,armytimes.com,0.4144
+Marine Corps Times,VA,North Springfield,marinecorpstimes.com,0.409
+Navy Times,VA,North Springfield,navytimes.com,0.3479
+Richmond Times-Dispatch,VA,Richmond,richmond.com,0.0133
+Style Weekly,VA,Richmond,styleweekly.com,-0.4746
+Roanoke Times,VA,Roanoke,roanoke.com,-0.0978
+The Roanoke Times,VA,Roanoke,roanoke.com,-0.0978
+WSLS 10 / WSLS.com,VA,Roanoke,wsls.com,-0.0205
+Daily News Leader,VA,Staunton,newsleader.com,-0.0708
+Fauquier Democrat,VA,Warrenton,fauquier.com,-0.5888
+Fauquier Times,VA,Warrenton,fauquier.com,-0.5888
+Burlington Free Press,VT,Burlington,burlingtonfreepress.com,-0.334
+Seven Days,VT,Burlington,sevendaysvt.com,-0.2013
+Rutland Herald,VT,Rutland,rutlandherald.com,-0.1776
+Bellingham Herald,WA,Bellingham,bellinghamherald.com,-0.0871
+Kitsap Sun,WA,Bremerton,kitsapsun.com,0.1944
+Everett Herald,WA,Everett,heraldnet.com,0.0329
+Tri-City Herald,WA,Kennewick,tri-cityherald.com,0.045
+Olympian,WA,Olympia,theolympian.com,-0.1516
+The Olympian,WA,Olympia,theolympian.com,-0.1516
+Seattle Post Intelligencer,WA,Seattle,seattlepi.com,-0.1598
+Seattle Times,WA,Seattle,seattletimes.com,-0.2764
+Seattle Weekly,WA,Seattle,seattleweekly.com,-0.6142
+The Seattle Times,WA,Seattle,seattletimes.com,-0.2764
+The Stranger,WA,Seattle,thestranger.com,-0.7594
+Spokesman-Review,WA,Spokane,spokesman.com,0.0198
+The Spokesman-Review,WA,Spokane,spokesman.com,0.0198
+The News Tribune,WA,Tacoma,thenewstribune.com,-0.0753
+Columbian,WA,Vancouver,columbian.com,-0.2822
+Yakima Herald-Republic,WA,Yakima,yakimaherald.com,-0.139
+Post-Crescent,WI,Appleton,postcrescent.com,-0.013
+"The Post-Crescent (Appleton-Fox Cities, Wisconsin)",WI,Appleton,postcrescent.com,-0.013
+Leader Telegram,WI,Eau Claire,leadertelegram.com,-0.2525
+Leader-Telegram,WI,Eau Claire,leadertelegram.com,-0.2525
+Green Bay Press Gazette,WI,Green Bay,greenbaypressgazette.com,0.1576
+Green Bay Press-Gazette,WI,Green Bay,greenbaypressgazette.com,0.1576
+Janesville Gazette,WI,Janesville,gazettextra.com,0.2856
+La Crosse Tribune,WI,La Crosse,lacrossetribune.com,0.1215
+Isthmus,WI,Madison,isthmus.com,-0.7832
+Onion,WI,Madison,theonion.com,-0.2903
+The Progressive Magazine,WI,Madison,progressive.org,-0.8814
+Milwaukee Journal Sentinel,WI,Milwaukee,jsonline.com,-0.0542
+Journal Times,WI,Racine,journaltimes.com,0.1937
+The Journal Times,WI,Racine,journaltimes.com,0.1937
+Bluefield Daily Telegraph,WV,Bluefield,bdtonline.com,0.2999
+Charleston Gazette-Mail,WV,Charleston,wvgazettemail.com,-0.2868
+Gazette-Mail,WV,Charleston,wvgazettemail.com,-0.2868
+The State Journal,WV,Charleston,statejournal.com,0.2174
+Exponent Telegram,WV,Clarksburg,theet.com,0.1962
+The Exponent Telegram,WV,Clarksburg,theet.com,0.1962
+Times West Virginian,WV,Fairmont,timeswv.com,0.247
+Herald-Dispatch,WV,Huntington,herald-dispatch.com,0.1113
+"The Journal, Martinsburg, WV",WV,Martinsburg,journal-news.net,0.3289
+Parkersburg News and Sentinel,WV,Parkersburg,newsandsentinel.com,0.4614
+The Intelligencer / Wheeling News-Register,WV,Wheeling,theintelligencer.net,0.2689
+Wheeling News-Register,WV,Wheeling,theintelligencer.net,0.2689
+Casper Star Tribune,WY,Casper,trib.com,0.3628
+Casper Star-Tribune,WY,Casper,trib.com,0.3628
+Wyoming Tribune Eagle,WY,Cheyenne,wyomingnews.com,0.4074
+Jackson Hole News & Guide,WY,Jackson,jhnewsandguide.com,0.1094
+Jackson Hole NewsGuide,WY,Jackson,jhnewsandguide.com,0.1094
